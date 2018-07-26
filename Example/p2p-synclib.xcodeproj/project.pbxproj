@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = johnjwchen;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = TZ3XHXCR9A;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -485,6 +488,7 @@
 			baseConfigurationReference = DD47FA4D2EC4030D98D1F8E0 /* Pods-p2p-synclib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TZ3XHXCR9A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "p2p-synclib/p2p-synclib-Prefix.pch";
 				INFOPLIST_FILE = "p2p-synclib/p2p-synclib-Info.plist";
@@ -500,6 +504,7 @@
 			baseConfigurationReference = 00A68DDD708582EC8B295B28 /* Pods-p2p-synclib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TZ3XHXCR9A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "p2p-synclib/p2p-synclib-Prefix.pch";
 				INFOPLIST_FILE = "p2p-synclib/p2p-synclib-Info.plist";

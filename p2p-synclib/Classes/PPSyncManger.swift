@@ -21,7 +21,7 @@ public class PPSyncManger: NSObject {
     private let serviceAdvertiser : MCNearbyServiceAdvertiser
     private let serviceBrowser : MCNearbyServiceBrowser
     
-    init(handler: @escaping (Data)->Void) {
+    public init(handler: @escaping (Data)->Void) {
         self.receiveHandler = handler
         self.serviceAdvertiser = MCNearbyServiceAdvertiser(peer: myPeerId, discoveryInfo: nil, serviceType: serviceType)
         self.serviceBrowser = MCNearbyServiceBrowser(peer: myPeerId, serviceType: serviceType)
