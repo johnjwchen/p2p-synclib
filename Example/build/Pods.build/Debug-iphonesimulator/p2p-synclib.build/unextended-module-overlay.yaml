@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/mmoison/Developer/p2p-synclib/Example/build/Debug-iphonesimulator/p2p-synclib/p2p_synclib.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/mmoison/Developer/p2p-synclib/Example/build/Pods.build/Debug-iphonesimulator/p2p-synclib.build/unextended-module.modulemap',
+    }]
+  }]
+}

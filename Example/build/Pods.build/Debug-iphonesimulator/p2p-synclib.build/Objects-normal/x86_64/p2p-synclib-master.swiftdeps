@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "94e93a48aa6dc8bc2f49e46f41e84dfa"
+build_time: [1532646937, 395128000]
+inputs:
+  "/Users/mmoison/Developer/p2p-synclib/p2p-synclib/Classes/PPSyncManagerExtension.swift": [1532646922, 0]
+  "/Users/mmoison/Developer/p2p-synclib/p2p-synclib/Classes/PPSyncManger.swift": [1532646302, 0]

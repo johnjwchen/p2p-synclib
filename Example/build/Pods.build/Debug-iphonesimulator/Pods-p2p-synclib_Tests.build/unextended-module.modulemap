@@ -1,0 +1,10 @@
+framework module Pods_p2p_synclib_Tests {
+  umbrella header "Pods-p2p-synclib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Pods_p2p_synclib_Tests.__Swift {
+    exclude header "Pods_p2p_synclib_Tests-Swift.h"
+}

@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/mmoison/Developer/p2p-synclib/Example/build/Debug-iphonesimulator/p2p-synclib/p2p_synclib.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "p2p-synclib-umbrella.h",
+          'external-contents': "/Users/mmoison/Developer/p2p-synclib/Example/Pods/Target Support Files/p2p-synclib/p2p-synclib-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "p2p_synclib-Swift.h",
+          'external-contents': "/Users/mmoison/Developer/p2p-synclib/Example/build/Debug-iphonesimulator/p2p-synclib/p2p_synclib.framework/Headers/p2p_synclib-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mmoison/Developer/p2p-synclib/Example/build/Debug-iphonesimulator/p2p-synclib/p2p_synclib.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mmoison/Developer/p2p-synclib/Example/build/Pods.build/Debug-iphonesimulator/p2p-synclib.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

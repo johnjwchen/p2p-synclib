@@ -1,0 +1,593 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PPSyncManger"
+- "PayloadType"
+- "Payload"
+- "Change"
+provides-nominal:
+- "11p2p_synclib12PPSyncMangerC"
+- "11p2p_synclib11PayloadTypeO"
+- "11p2p_synclib7PayloadV"
+- "11p2p_synclib6ChangeV"
+provides-member:
+- ["11p2p_synclib12PPSyncMangerC", ""]
+- ["11p2p_synclib11PayloadTypeO", ""]
+- ["11p2p_synclib7PayloadV", ""]
+- ["11p2p_synclib6ChangeV", ""]
+- ["11p2p_synclib7PayloadV", "toData"]
+provides-dynamic-lookup:
+- "receiveHandler"
+- "send"
+- "session"
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Change"
+- "Codable"
+- "Data"
+- "Date"
+- "Equatable"
+- "Int"
+- !private "JSONEncoder"
+- "MCNearbyServiceAdvertiser"
+- "MCNearbyServiceBrowser"
+- "MCPeerID"
+- "MCSession"
+- "NSObject"
+- "NSUUID"
+- "PPSyncManger"
+- "Payload"
+- "PayloadType"
+- "String"
+- "StringLiteralType"
+- "UUID"
+- "Void"
+- !private "~="
+depends-member:
+- ["Sa", "init"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "Change"]
+- !private ["s7CVarArgP", "MCNearbyServiceAdvertiser"]
+- !private ["s7CVarArgP", "MCNearbyServiceBrowser"]
+- ["s7CVarArgP", "MCPeerID"]
+- !private ["s7CVarArgP", "MCSession"]
+- ["s7CVarArgP", "String"]
+- ["s7CVarArgP", "UUID"]
+- ["s7CVarArgP", "UUIDString"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_session"]
+- !private ["s7CVarArgP", "delegate"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "myPeerId"]
+- !private ["s7CVarArgP", "receiveHandler"]
+- !private ["s7CVarArgP", "serviceAdvertiser"]
+- !private ["s7CVarArgP", "serviceBrowser"]
+- !private ["s7CVarArgP", "serviceType"]
+- !private ["s7CVarArgP", "startAdvertisingPeer"]
+- !private ["s7CVarArgP", "startBrowsingForPeers"]
+- !private ["s7CVarArgP", "stopAdvertisingPeer"]
+- !private ["s7CVarArgP", "stopBrowsingForPeers"]
+- !private ["11p2p_synclib6ChangeV", "CodingKeys"]
+- ["11p2p_synclib6ChangeV", "Data"]
+- ["11p2p_synclib6ChangeV", "Date"]
+- ["11p2p_synclib6ChangeV", "NSUUID"]
+- ["11p2p_synclib6ChangeV", "__derived_struct_equals"]
+- ["11p2p_synclib6ChangeV", "deinit"]
+- ["11p2p_synclib6ChangeV", "encode"]
+- ["11p2p_synclib6ChangeV", "init"]
+- ["11p2p_synclib6ChangeV", "timeStamp"]
+- ["11p2p_synclib6ChangeV", "userData"]
+- ["11p2p_synclib6ChangeV", "uuid"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- ["s10ComparableP", "timeIntervalSince1970"]
+- ["s28CustomDebugStringConvertibleP", "Change"]
+- !private ["s28CustomDebugStringConvertibleP", "MCNearbyServiceAdvertiser"]
+- !private ["s28CustomDebugStringConvertibleP", "MCNearbyServiceBrowser"]
+- ["s28CustomDebugStringConvertibleP", "MCPeerID"]
+- !private ["s28CustomDebugStringConvertibleP", "MCSession"]
+- ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", "UUID"]
+- ["s28CustomDebugStringConvertibleP", "UUIDString"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_session"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- !private ["s28CustomDebugStringConvertibleP", "myPeerId"]
+- !private ["s28CustomDebugStringConvertibleP", "receiveHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "serviceAdvertiser"]
+- !private ["s28CustomDebugStringConvertibleP", "serviceBrowser"]
+- !private ["s28CustomDebugStringConvertibleP", "serviceType"]
+- !private ["s28CustomDebugStringConvertibleP", "startAdvertisingPeer"]
+- !private ["s28CustomDebugStringConvertibleP", "startBrowsingForPeers"]
+- !private ["s28CustomDebugStringConvertibleP", "stopAdvertisingPeer"]
+- !private ["s28CustomDebugStringConvertibleP", "stopBrowsingForPeers"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "timeIntervalSince1970"]
+- ["s17CustomReflectableP", "uuidString"]
+- ["s23CustomStringConvertibleP", "Change"]
+- !private ["s23CustomStringConvertibleP", "MCNearbyServiceAdvertiser"]
+- !private ["s23CustomStringConvertibleP", "MCNearbyServiceBrowser"]
+- ["s23CustomStringConvertibleP", "MCPeerID"]
+- !private ["s23CustomStringConvertibleP", "MCSession"]
+- ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", "UUID"]
+- ["s23CustomStringConvertibleP", "UUIDString"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_session"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "myPeerId"]
+- !private ["s23CustomStringConvertibleP", "receiveHandler"]
+- !private ["s23CustomStringConvertibleP", "serviceAdvertiser"]
+- !private ["s23CustomStringConvertibleP", "serviceBrowser"]
+- !private ["s23CustomStringConvertibleP", "serviceType"]
+- !private ["s23CustomStringConvertibleP", "startAdvertisingPeer"]
+- !private ["s23CustomStringConvertibleP", "startBrowsingForPeers"]
+- !private ["s23CustomStringConvertibleP", "stopAdvertisingPeer"]
+- !private ["s23CustomStringConvertibleP", "stopBrowsingForPeers"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- ["s23CustomStringConvertibleP", "uuidString"]
+- ["10Foundation4DateV", "init"]
+- ["10Foundation4DateV", "timeIntervalSince1970"]
+- ["s9DecodableP", "Date"]
+- !private ["s9DecodableP", "JSONEncoder"]
+- ["s9DecodableP", "NSUUID"]
+- ["s9DecodableP", "RawValue"]
+- ["s9DecodableP", ""]
+- ["s9DecodableP", "_Default_RawValue"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "changes"]
+- ["s9DecodableP", "encode"]
+- ["s9DecodableP", "hashValue"]
+- ["s9DecodableP", "init"]
+- ["s9DecodableP", "rawValue"]
+- ["s9DecodableP", "timeIntervalSince1970"]
+- !private ["s9DecodableP", "type"]
+- !private ["s9DecodableP", "userData"]
+- ["s9DecodableP", "uuidString"]
+- !private ["s7DecoderP", "container"]
+- ["s10DictionaryV", "init"]
+- ["s9EncodableP", "Date"]
+- !private ["s9EncodableP", "JSONEncoder"]
+- ["s9EncodableP", "NSUUID"]
+- ["s9EncodableP", "RawValue"]
+- ["s9EncodableP", ""]
+- ["s9EncodableP", "_Default_RawValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "changes"]
+- ["s9EncodableP", "encode"]
+- ["s9EncodableP", "hashValue"]
+- ["s9EncodableP", "init"]
+- ["s9EncodableP", "rawValue"]
+- ["s9EncodableP", "timeIntervalSince1970"]
+- !private ["s9EncodableP", "type"]
+- !private ["s9EncodableP", "userData"]
+- ["s9EncodableP", "uuidString"]
+- !private ["s7EncoderP", "container"]
+- ["s9EquatableP", "Change"]
+- ["s9EquatableP", "Date"]
+- !private ["s9EquatableP", "MCNearbyServiceAdvertiser"]
+- !private ["s9EquatableP", "MCNearbyServiceBrowser"]
+- ["s9EquatableP", "MCPeerID"]
+- !private ["s9EquatableP", "MCSession"]
+- ["s9EquatableP", "NSUUID"]
+- ["s9EquatableP", "RawValue"]
+- ["s9EquatableP", "String"]
+- ["s9EquatableP", "UUID"]
+- ["s9EquatableP", "UUIDString"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "_session"]
+- ["s9EquatableP", "debugDescription"]
+- !private ["s9EquatableP", "delegate"]
+- ["s9EquatableP", "description"]
+- ["s9EquatableP", "encode"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "intValue"]
+- !private ["s9EquatableP", "myPeerId"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "receiveHandler"]
+- !private ["s9EquatableP", "required"]
+- !private ["s9EquatableP", "serviceAdvertiser"]
+- !private ["s9EquatableP", "serviceBrowser"]
+- !private ["s9EquatableP", "serviceType"]
+- !private ["s9EquatableP", "startAdvertisingPeer"]
+- !private ["s9EquatableP", "startBrowsingForPeers"]
+- !private ["s9EquatableP", "stopAdvertisingPeer"]
+- !private ["s9EquatableP", "stopBrowsingForPeers"]
+- ["s9EquatableP", "stringValue"]
+- ["s9EquatableP", "timeIntervalSince1970"]
+- !private ["s9EquatableP", "userData"]
+- ["s9EquatableP", "uuidString"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "Change"]
+- !private ["s8HashableP", "MCNearbyServiceAdvertiser"]
+- !private ["s8HashableP", "MCNearbyServiceBrowser"]
+- ["s8HashableP", "MCPeerID"]
+- !private ["s8HashableP", "MCSession"]
+- ["s8HashableP", "RawValue"]
+- ["s8HashableP", "String"]
+- ["s8HashableP", "UUID"]
+- ["s8HashableP", "UUIDString"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_session"]
+- ["s8HashableP", "debugDescription"]
+- !private ["s8HashableP", "delegate"]
+- ["s8HashableP", "description"]
+- ["s8HashableP", "encode"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "intValue"]
+- !private ["s8HashableP", "myPeerId"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "receiveHandler"]
+- !private ["s8HashableP", "required"]
+- !private ["s8HashableP", "serviceAdvertiser"]
+- !private ["s8HashableP", "serviceBrowser"]
+- !private ["s8HashableP", "serviceType"]
+- !private ["s8HashableP", "startAdvertisingPeer"]
+- !private ["s8HashableP", "startBrowsingForPeers"]
+- !private ["s8HashableP", "stopAdvertisingPeer"]
+- !private ["s8HashableP", "stopBrowsingForPeers"]
+- ["s8HashableP", "stringValue"]
+- ["s8HashableP", "timeIntervalSince1970"]
+- ["s8HashableP", "uuidString"]
+- !private ["10Foundation11JSONEncoderC", "encode"]
+- !private ["10Foundation11JSONEncoderC", "init"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["SC22MCEncryptionPreferenceO", "required"]
+- !private ["So25MCNearbyServiceAdvertiserC", "delegate"]
+- !private ["So25MCNearbyServiceAdvertiserC", "init"]
+- !private ["So25MCNearbyServiceAdvertiserC", "startAdvertisingPeer"]
+- !private ["So25MCNearbyServiceAdvertiserC", "stopAdvertisingPeer"]
+- ["So33MCNearbyServiceAdvertiserDelegateP", "Change"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "MCNearbyServiceAdvertiser"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "MCNearbyServiceBrowser"]
+- ["So33MCNearbyServiceAdvertiserDelegateP", "MCPeerID"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "MCSession"]
+- ["So33MCNearbyServiceAdvertiserDelegateP", "String"]
+- ["So33MCNearbyServiceAdvertiserDelegateP", "UUID"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "_session"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "myPeerId"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "receiveHandler"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "serviceAdvertiser"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "serviceBrowser"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "serviceType"]
+- !private ["So22MCNearbyServiceBrowserC", "delegate"]
+- !private ["So22MCNearbyServiceBrowserC", "init"]
+- !private ["So22MCNearbyServiceBrowserC", "startBrowsingForPeers"]
+- !private ["So22MCNearbyServiceBrowserC", "stopBrowsingForPeers"]
+- ["So30MCNearbyServiceBrowserDelegateP", "Change"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "MCNearbyServiceAdvertiser"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "MCNearbyServiceBrowser"]
+- ["So30MCNearbyServiceBrowserDelegateP", "MCPeerID"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "MCSession"]
+- ["So30MCNearbyServiceBrowserDelegateP", "String"]
+- ["So30MCNearbyServiceBrowserDelegateP", "UUID"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "_session"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "myPeerId"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "receiveHandler"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "serviceAdvertiser"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "serviceBrowser"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "serviceType"]
+- ["So8MCPeerIDC", "init"]
+- !private ["So9MCSessionC", "delegate"]
+- !private ["So9MCSessionC", "init"]
+- ["So17MCSessionDelegateP", "Change"]
+- !private ["So17MCSessionDelegateP", "MCNearbyServiceAdvertiser"]
+- !private ["So17MCSessionDelegateP", "MCNearbyServiceBrowser"]
+- ["So17MCSessionDelegateP", "MCPeerID"]
+- !private ["So17MCSessionDelegateP", "MCSession"]
+- ["So17MCSessionDelegateP", "String"]
+- ["So17MCSessionDelegateP", "UUID"]
+- !private ["So17MCSessionDelegateP", "_session"]
+- !private ["So17MCSessionDelegateP", "myPeerId"]
+- !private ["So17MCSessionDelegateP", "receiveHandler"]
+- !private ["So17MCSessionDelegateP", "serviceAdvertiser"]
+- !private ["So17MCSessionDelegateP", "serviceBrowser"]
+- !private ["So17MCSessionDelegateP", "serviceType"]
+- ["s10MirrorPathP", "init"]
+- ["s17MutableCollectionP", "init"]
+- ["So8NSCodingP", "UUIDString"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "UUIDString"]
+- ["So9NSCopyingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Change"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "MCNearbyServiceAdvertiser"]
+- ["So8NSObjectC", "MCNearbyServiceBrowser"]
+- ["So8NSObjectC", "MCPeerID"]
+- ["So8NSObjectC", "MCSession"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UUID"]
+- ["So8NSObjectC", "UUIDString"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_session"]
+- ["So8NSObjectC", "changes"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "myPeerId"]
+- ["So8NSObjectC", "peerQueues"]
+- ["So8NSObjectC", "receiveHandler"]
+- ["So8NSObjectC", "send"]
+- ["So8NSObjectC", "serviceAdvertiser"]
+- ["So8NSObjectC", "serviceBrowser"]
+- ["So8NSObjectC", "serviceType"]
+- ["So8NSObjectC", "session"]
+- !private ["So8NSObjectC", "startAdvertisingPeer"]
+- !private ["So8NSObjectC", "startBrowsingForPeers"]
+- !private ["So8NSObjectC", "stopAdvertisingPeer"]
+- !private ["So8NSObjectC", "stopBrowsingForPeers"]
+- ["So16NSObjectProtocolP", "Change"]
+- !private ["So16NSObjectProtocolP", "MCNearbyServiceAdvertiser"]
+- !private ["So16NSObjectProtocolP", "MCNearbyServiceBrowser"]
+- ["So16NSObjectProtocolP", "MCPeerID"]
+- !private ["So16NSObjectProtocolP", "MCSession"]
+- ["So16NSObjectProtocolP", "String"]
+- ["So16NSObjectProtocolP", "UUID"]
+- ["So16NSObjectProtocolP", "UUIDString"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "_session"]
+- !private ["So16NSObjectProtocolP", "delegate"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "myPeerId"]
+- !private ["So16NSObjectProtocolP", "receiveHandler"]
+- !private ["So16NSObjectProtocolP", "serviceAdvertiser"]
+- !private ["So16NSObjectProtocolP", "serviceBrowser"]
+- !private ["So16NSObjectProtocolP", "serviceType"]
+- !private ["So16NSObjectProtocolP", "startAdvertisingPeer"]
+- !private ["So16NSObjectProtocolP", "startBrowsingForPeers"]
+- !private ["So16NSObjectProtocolP", "stopAdvertisingPeer"]
+- !private ["So16NSObjectProtocolP", "stopBrowsingForPeers"]
+- ["So14NSSecureCodingP", "UUIDString"]
+- ["So14NSSecureCodingP", "init"]
+- ["So6NSUUIDC", "UUIDString"]
+- ["So6NSUUIDC", "init"]
+- ["11p2p_synclib12PPSyncMangerC", "Bool"]
+- ["11p2p_synclib12PPSyncMangerC", "Change"]
+- ["11p2p_synclib12PPSyncMangerC", "Data"]
+- ["11p2p_synclib12PPSyncMangerC", "MCNearbyServiceAdvertiser"]
+- ["11p2p_synclib12PPSyncMangerC", "MCNearbyServiceBrowser"]
+- ["11p2p_synclib12PPSyncMangerC", "MCPeerID"]
+- ["11p2p_synclib12PPSyncMangerC", "MCSession"]
+- ["11p2p_synclib12PPSyncMangerC", "String"]
+- ["11p2p_synclib12PPSyncMangerC", "UUID"]
+- ["11p2p_synclib12PPSyncMangerC", "Void"]
+- !private ["11p2p_synclib12PPSyncMangerC", "_session"]
+- ["11p2p_synclib12PPSyncMangerC", "changes"]
+- ["11p2p_synclib12PPSyncMangerC", "deinit"]
+- ["11p2p_synclib12PPSyncMangerC", "init"]
+- !private ["11p2p_synclib12PPSyncMangerC", "myPeerId"]
+- ["11p2p_synclib12PPSyncMangerC", "peerQueues"]
+- ["11p2p_synclib12PPSyncMangerC", "receiveHandler"]
+- ["11p2p_synclib12PPSyncMangerC", "send"]
+- !private ["11p2p_synclib12PPSyncMangerC", "serviceAdvertiser"]
+- !private ["11p2p_synclib12PPSyncMangerC", "serviceBrowser"]
+- !private ["11p2p_synclib12PPSyncMangerC", "serviceType"]
+- ["11p2p_synclib12PPSyncMangerC", "session"]
+- ["11p2p_synclib7PayloadV", "Change"]
+- !private ["11p2p_synclib7PayloadV", "CodingKeys"]
+- ["11p2p_synclib7PayloadV", "Data"]
+- !private ["11p2p_synclib7PayloadV", "JSONEncoder"]
+- ["11p2p_synclib7PayloadV", "PayloadType"]
+- ["11p2p_synclib7PayloadV", "changes"]
+- ["11p2p_synclib7PayloadV", "deinit"]
+- ["11p2p_synclib7PayloadV", "encode"]
+- ["11p2p_synclib7PayloadV", "init"]
+- ["11p2p_synclib7PayloadV", "toData"]
+- ["11p2p_synclib7PayloadV", "type"]
+- ["11p2p_synclib11PayloadTypeO", "RawValue"]
+- ["11p2p_synclib11PayloadTypeO", "_Default_RawValue"]
+- ["11p2p_synclib11PayloadTypeO", "deinit"]
+- ["11p2p_synclib11PayloadTypeO", "encode"]
+- ["11p2p_synclib11PayloadTypeO", "hashValue"]
+- ["11p2p_synclib11PayloadTypeO", "init"]
+- ["11p2p_synclib11PayloadTypeO", "rawValue"]
+- ["11p2p_synclib11PayloadTypeO", "request"]
+- ["11p2p_synclib11PayloadTypeO", "response"]
+- ["s22RandomAccessCollectionP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- ["s16RawRepresentableP", "encode"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "required"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- ["s8SequenceP", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["10Foundation4UUIDV", "init"]
+- ["10Foundation4UUIDV", "uuidString"]
+- ["s14_ArrayProtocolP", "init"]
+- ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "UUIDString"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Change"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MCNearbyServiceAdvertiser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MCNearbyServiceBrowser"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "MCPeerID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MCSession"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UUID"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UUIDString"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_session"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "myPeerId"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "receiveHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "serviceAdvertiser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "serviceBrowser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "serviceType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startAdvertisingPeer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startBrowsingForPeers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopAdvertisingPeer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopBrowsingForPeers"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+- ["s21_ObjectiveCBridgeableP", "uuidString"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "11p2p_synclib6ChangeV"
+- "s9CodingKeyP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
+- "s9DecodableP"
+- !private "s7DecoderP"
+- "s10DictionaryV"
+- "s9EncodableP"
+- !private "s7EncoderP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10Foundation11JSONEncoderC"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "s25LosslessStringConvertibleP"
+- !private "SC22MCEncryptionPreferenceO"
+- !private "So25MCNearbyServiceAdvertiserC"
+- "So33MCNearbyServiceAdvertiserDelegateP"
+- !private "So22MCNearbyServiceBrowserC"
+- "So30MCNearbyServiceBrowserDelegateP"
+- "So8MCPeerIDC"
+- !private "So9MCSessionC"
+- "So17MCSessionDelegateP"
+- "s10MirrorPathP"
+- "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So6NSUUIDC"
+- "11p2p_synclib12PPSyncMangerC"
+- "11p2p_synclib7PayloadV"
+- "11p2p_synclib11PayloadTypeO"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "10Foundation20ReferenceConvertibleP"
+- "s8SequenceP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "10Foundation4UUIDV"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mmoison/Developer/p2p-synclib/Example/Pods/Target Support Files/p2p-synclib/p2p-synclib-umbrella.h"
+- "/Users/mmoison/Developer/p2p-synclib/Example/build/Pods.build/Debug-iphonesimulator/p2p-synclib.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MultipeerConnectivity.apinotes"
+interface-hash: "013e3f81cd6e6d2f2fb88e44a59c9bf5"

@@ -1,0 +1,529 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "11p2p_synclib12PPSyncMangerC"
+provides-member:
+- ["11p2p_synclib12PPSyncMangerC", ""]
+- ["11p2p_synclib12PPSyncMangerC", "_send"]
+provides-dynamic-lookup:
+- "_send"
+- "advertiser"
+- "browser"
+- "session"
+depends-top-level:
+- !private "!"
+- !private "+"
+- !private "..<"
+- !private ">"
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Change"
+- "Data"
+- "Error"
+- "InputStream"
+- !private "JSONDecoder"
+- "MCNearbyServiceAdvertiser"
+- "MCNearbyServiceAdvertiserDelegate"
+- "MCNearbyServiceBrowser"
+- "MCNearbyServiceBrowserDelegate"
+- "MCPeerID"
+- "MCSession"
+- "MCSessionDelegate"
+- "MCSessionState"
+- !private "NSLog"
+- "PPSyncManger"
+- !private "Payload"
+- "Progress"
+- "String"
+- !private "StringLiteralType"
+- "URL"
+- "Void"
+- !private "debugPrint"
+- !private "print"
+depends-member:
+- !private ["Sa", "contains"]
+- !private ["Sa", "count"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "first"]
+- !private ["Sa", "index"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "contains"]
+- !private ["s23BidirectionalCollectionP", "count"]
+- !private ["s23BidirectionalCollectionP", "filter"]
+- !private ["s23BidirectionalCollectionP", "first"]
+- !private ["s23BidirectionalCollectionP", "index"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Array"]
+- !private ["s7CVarArgP", "Change"]
+- !private ["s7CVarArgP", "JSONDecoder"]
+- !private ["s7CVarArgP", "NSLog"]
+- !private ["s7CVarArgP", "Payload"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "advertiser"]
+- ["s7CVarArgP", "browser"]
+- !private ["s7CVarArgP", "changes"]
+- !private ["s7CVarArgP", "connectedPeers"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "debugPrint"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "index"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "invitePeer"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "receiveHandler"]
+- !private ["s7CVarArgP", "send"]
+- ["s7CVarArgP", "session"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["11p2p_synclib6ChangeV", "deinit"]
+- !private ["11p2p_synclib6ChangeV", "init"]
+- !private ["11p2p_synclib6ChangeV", "userData"]
+- !private ["s10CollectionP", "contains"]
+- !private ["s10CollectionP", "count"]
+- !private ["s10CollectionP", "filter"]
+- !private ["s10CollectionP", "first"]
+- !private ["s10CollectionP", "index"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Array"]
+- !private ["s28CustomDebugStringConvertibleP", "Change"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONDecoder"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLog"]
+- !private ["s28CustomDebugStringConvertibleP", "Payload"]
+- ["s28CustomDebugStringConvertibleP", "advertiser"]
+- ["s28CustomDebugStringConvertibleP", "browser"]
+- !private ["s28CustomDebugStringConvertibleP", "changes"]
+- !private ["s28CustomDebugStringConvertibleP", "connectedPeers"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "debugPrint"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "invitePeer"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "receiveHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "send"]
+- ["s28CustomDebugStringConvertibleP", "session"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "index"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "Array"]
+- !private ["s23CustomStringConvertibleP", "Change"]
+- !private ["s23CustomStringConvertibleP", "JSONDecoder"]
+- !private ["s23CustomStringConvertibleP", "NSLog"]
+- !private ["s23CustomStringConvertibleP", "Payload"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "advertiser"]
+- ["s23CustomStringConvertibleP", "browser"]
+- !private ["s23CustomStringConvertibleP", "changes"]
+- !private ["s23CustomStringConvertibleP", "connectedPeers"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "debugPrint"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "invitePeer"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "receiveHandler"]
+- !private ["s23CustomStringConvertibleP", "send"]
+- ["s23CustomStringConvertibleP", "session"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "changes"]
+- !private ["s9DecodableP", "contains"]
+- !private ["s9DecodableP", "count"]
+- !private ["s9DecodableP", "filter"]
+- !private ["s9DecodableP", "first"]
+- !private ["s9DecodableP", "index"]
+- !private ["s9DecodableP", "init"]
+- ["s9DecodableP", "request"]
+- ["s9DecodableP", "response"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9DecodableP", "toData"]
+- !private ["s9DecodableP", "type"]
+- !private ["s9DecodableP", "userData"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "changes"]
+- !private ["s9EncodableP", "contains"]
+- !private ["s9EncodableP", "count"]
+- !private ["s9EncodableP", "filter"]
+- !private ["s9EncodableP", "first"]
+- !private ["s9EncodableP", "index"]
+- !private ["s9EncodableP", "init"]
+- ["s9EncodableP", "request"]
+- ["s9EncodableP", "response"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EncodableP", "toData"]
+- !private ["s9EncodableP", "type"]
+- !private ["s9EncodableP", "userData"]
+- !private ["s9EquatableP", "Array"]
+- !private ["s9EquatableP", "Change"]
+- !private ["s9EquatableP", "JSONDecoder"]
+- !private ["s9EquatableP", "NSLog"]
+- !private ["s9EquatableP", "Payload"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "advertiser"]
+- ["s9EquatableP", "browser"]
+- !private ["s9EquatableP", "changes"]
+- !private ["s9EquatableP", "connectedPeers"]
+- !private ["s9EquatableP", "contains"]
+- !private ["s9EquatableP", "count"]
+- !private ["s9EquatableP", "debugPrint"]
+- !private ["s9EquatableP", "filter"]
+- !private ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "index"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "invitePeer"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "receiveHandler"]
+- !private ["s9EquatableP", "reliable"]
+- ["s9EquatableP", "request"]
+- ["s9EquatableP", "response"]
+- !private ["s9EquatableP", "send"]
+- ["s9EquatableP", "session"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "userData"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "index"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "Array"]
+- !private ["s8HashableP", "Change"]
+- !private ["s8HashableP", "JSONDecoder"]
+- !private ["s8HashableP", "NSLog"]
+- !private ["s8HashableP", "Payload"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "advertiser"]
+- ["s8HashableP", "browser"]
+- !private ["s8HashableP", "changes"]
+- !private ["s8HashableP", "connectedPeers"]
+- !private ["s8HashableP", "debugPrint"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "invitePeer"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "receiveHandler"]
+- !private ["s8HashableP", "reliable"]
+- ["s8HashableP", "request"]
+- ["s8HashableP", "response"]
+- !private ["s8HashableP", "send"]
+- ["s8HashableP", "session"]
+- !private ["10Foundation11JSONDecoderC", "decode"]
+- !private ["10Foundation11JSONDecoderC", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "Array"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "Change"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "JSONDecoder"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "NSLog"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "Payload"]
+- ["So33MCNearbyServiceAdvertiserDelegateP", ""]
+- ["So33MCNearbyServiceAdvertiserDelegateP", "advertiser"]
+- ["So33MCNearbyServiceAdvertiserDelegateP", "browser"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "changes"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "debugPrint"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "print"]
+- !private ["So33MCNearbyServiceAdvertiserDelegateP", "receiveHandler"]
+- ["So33MCNearbyServiceAdvertiserDelegateP", "session"]
+- !private ["So22MCNearbyServiceBrowserC", "invitePeer"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "Array"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "Change"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "JSONDecoder"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "NSLog"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "Payload"]
+- ["So30MCNearbyServiceBrowserDelegateP", ""]
+- ["So30MCNearbyServiceBrowserDelegateP", "advertiser"]
+- ["So30MCNearbyServiceBrowserDelegateP", "browser"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "changes"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "debugPrint"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "print"]
+- !private ["So30MCNearbyServiceBrowserDelegateP", "receiveHandler"]
+- ["So30MCNearbyServiceBrowserDelegateP", "session"]
+- !private ["So9MCSessionC", "connectedPeers"]
+- !private ["So9MCSessionC", "send"]
+- !private ["So17MCSessionDelegateP", "Array"]
+- !private ["So17MCSessionDelegateP", "Change"]
+- !private ["So17MCSessionDelegateP", "JSONDecoder"]
+- !private ["So17MCSessionDelegateP", "NSLog"]
+- !private ["So17MCSessionDelegateP", "Payload"]
+- ["So17MCSessionDelegateP", ""]
+- ["So17MCSessionDelegateP", "advertiser"]
+- ["So17MCSessionDelegateP", "browser"]
+- !private ["So17MCSessionDelegateP", "changes"]
+- !private ["So17MCSessionDelegateP", "debugPrint"]
+- !private ["So17MCSessionDelegateP", "print"]
+- !private ["So17MCSessionDelegateP", "receiveHandler"]
+- ["So17MCSessionDelegateP", "session"]
+- !private ["SC21MCSessionSendDataModeO", "reliable"]
+- !private ["SC14MCSessionStateO", "rawValue"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "contains"]
+- !private ["s17MutableCollectionP", "count"]
+- !private ["s17MutableCollectionP", "filter"]
+- !private ["s17MutableCollectionP", "first"]
+- !private ["s17MutableCollectionP", "index"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSObjectC", "Array"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Change"]
+- ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "InputStream"]
+- !private ["So8NSObjectC", "JSONDecoder"]
+- ["So8NSObjectC", "MCNearbyServiceAdvertiser"]
+- ["So8NSObjectC", "MCNearbyServiceBrowser"]
+- ["So8NSObjectC", "MCPeerID"]
+- ["So8NSObjectC", "MCSession"]
+- ["So8NSObjectC", "MCSessionState"]
+- !private ["So8NSObjectC", "NSLog"]
+- !private ["So8NSObjectC", "Payload"]
+- ["So8NSObjectC", "Progress"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "Void"]
+- ["So8NSObjectC", "_send"]
+- ["So8NSObjectC", "advertiser"]
+- ["So8NSObjectC", "browser"]
+- !private ["So8NSObjectC", "changes"]
+- !private ["So8NSObjectC", "connectedPeers"]
+- !private ["So8NSObjectC", "debugPrint"]
+- !private ["So8NSObjectC", "invitePeer"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "receiveHandler"]
+- !private ["So8NSObjectC", "send"]
+- ["So8NSObjectC", "session"]
+- !private ["So16NSObjectProtocolP", "Array"]
+- !private ["So16NSObjectProtocolP", "Change"]
+- !private ["So16NSObjectProtocolP", "JSONDecoder"]
+- !private ["So16NSObjectProtocolP", "NSLog"]
+- !private ["So16NSObjectProtocolP", "Payload"]
+- ["So16NSObjectProtocolP", "advertiser"]
+- ["So16NSObjectProtocolP", "browser"]
+- !private ["So16NSObjectProtocolP", "changes"]
+- !private ["So16NSObjectProtocolP", "connectedPeers"]
+- !private ["So16NSObjectProtocolP", "debugPrint"]
+- !private ["So16NSObjectProtocolP", "invitePeer"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "receiveHandler"]
+- !private ["So16NSObjectProtocolP", "send"]
+- ["So16NSObjectProtocolP", "session"]
+- !private ["11p2p_synclib12PPSyncMangerC", "Array"]
+- ["11p2p_synclib12PPSyncMangerC", "Bool"]
+- !private ["11p2p_synclib12PPSyncMangerC", "Change"]
+- ["11p2p_synclib12PPSyncMangerC", "Data"]
+- ["11p2p_synclib12PPSyncMangerC", "Error"]
+- ["11p2p_synclib12PPSyncMangerC", "InputStream"]
+- !private ["11p2p_synclib12PPSyncMangerC", "JSONDecoder"]
+- ["11p2p_synclib12PPSyncMangerC", "MCNearbyServiceAdvertiser"]
+- ["11p2p_synclib12PPSyncMangerC", "MCNearbyServiceBrowser"]
+- ["11p2p_synclib12PPSyncMangerC", "MCPeerID"]
+- ["11p2p_synclib12PPSyncMangerC", "MCSession"]
+- ["11p2p_synclib12PPSyncMangerC", "MCSessionState"]
+- !private ["11p2p_synclib12PPSyncMangerC", "NSLog"]
+- !private ["11p2p_synclib12PPSyncMangerC", "Payload"]
+- ["11p2p_synclib12PPSyncMangerC", "Progress"]
+- ["11p2p_synclib12PPSyncMangerC", "String"]
+- ["11p2p_synclib12PPSyncMangerC", "URL"]
+- ["11p2p_synclib12PPSyncMangerC", "Void"]
+- ["11p2p_synclib12PPSyncMangerC", "_send"]
+- ["11p2p_synclib12PPSyncMangerC", "advertiser"]
+- ["11p2p_synclib12PPSyncMangerC", "browser"]
+- !private ["11p2p_synclib12PPSyncMangerC", "changes"]
+- !private ["11p2p_synclib12PPSyncMangerC", "debugPrint"]
+- ["11p2p_synclib12PPSyncMangerC", "deinit"]
+- !private ["11p2p_synclib12PPSyncMangerC", "print"]
+- !private ["11p2p_synclib12PPSyncMangerC", "receiveHandler"]
+- ["11p2p_synclib12PPSyncMangerC", "session"]
+- !private ["11p2p_synclib7PayloadV", "changes"]
+- !private ["11p2p_synclib7PayloadV", "deinit"]
+- !private ["11p2p_synclib7PayloadV", "init"]
+- !private ["11p2p_synclib7PayloadV", "toData"]
+- !private ["11p2p_synclib7PayloadV", "type"]
+- ["11p2p_synclib11PayloadTypeO", "request"]
+- ["11p2p_synclib11PayloadTypeO", "response"]
+- !private ["s22RandomAccessCollectionP", "contains"]
+- !private ["s22RandomAccessCollectionP", "count"]
+- !private ["s22RandomAccessCollectionP", "filter"]
+- !private ["s22RandomAccessCollectionP", "first"]
+- !private ["s22RandomAccessCollectionP", "index"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "contains"]
+- !private ["s26RangeReplaceableCollectionP", "count"]
+- !private ["s26RangeReplaceableCollectionP", "filter"]
+- !private ["s26RangeReplaceableCollectionP", "first"]
+- !private ["s26RangeReplaceableCollectionP", "index"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- !private ["s16RawRepresentableP", "reliable"]
+- ["s16RawRepresentableP", "request"]
+- ["s16RawRepresentableP", "response"]
+- !private ["s8SequenceP", "contains"]
+- !private ["s8SequenceP", "count"]
+- !private ["s8SequenceP", "filter"]
+- !private ["s8SequenceP", "first"]
+- !private ["s8SequenceP", "index"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s14_ArrayProtocolP", "contains"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "index"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "index"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Array"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Change"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONDecoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLog"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Payload"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "advertiser"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "browser"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "changes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connectedPeers"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "debugPrint"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invitePeer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "receiveHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "send"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "session"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "index"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "11p2p_synclib6ChangeV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10Foundation11JSONDecoderC"
+- !private "s25LosslessStringConvertibleP"
+- "So33MCNearbyServiceAdvertiserDelegateP"
+- !private "So22MCNearbyServiceBrowserC"
+- "So30MCNearbyServiceBrowserDelegateP"
+- !private "So9MCSessionC"
+- "So17MCSessionDelegateP"
+- !private "SC21MCSessionSendDataModeO"
+- !private "SC14MCSessionStateO"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "11p2p_synclib12PPSyncMangerC"
+- !private "11p2p_synclib7PayloadV"
+- "11p2p_synclib11PayloadTypeO"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "s8SequenceP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mmoison/Developer/p2p-synclib/Example/Pods/Target Support Files/p2p-synclib/p2p-synclib-umbrella.h"
+- "/Users/mmoison/Developer/p2p-synclib/Example/build/Pods.build/Debug-iphonesimulator/p2p-synclib.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MultipeerConnectivity.framework/Headers/MultipeerConnectivity.apinotes"
+interface-hash: "b5126d0cfccfac1d68caac450fff9743"

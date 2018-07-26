@@ -20,6 +20,7 @@
 		48B62C89777F02C662C8C267A9134E46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		8B2D19114EBC1457159FA60B6B6494C6 /* p2p-synclib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 104F7D6D0A6D67C36D6F3C9E1CC16375 /* p2p-synclib-dummy.m */; };
 		A644DF4D2276B9A80191E49C7B84121C /* Pods-p2p-synclib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0696DE4E9504BF4D3DD34A8E045ABB59 /* Pods-p2p-synclib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF8AB900210A81E800631580 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8AB8FF210A81E700631580 /* MultipeerConnectivity.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		97B9D016E9284E81CA2AAF8627294A83 /* Pods-p2p-synclib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-p2p-synclib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4646C435CDEE5ED8325659F0D545FF2 /* p2p-synclib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "p2p-synclib-umbrella.h"; sourceTree = "<group>"; };
 		BAD2341AEFCA96781504665C2F8597F6 /* p2p-synclib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "p2p-synclib-prefix.pch"; sourceTree = "<group>"; };
+		CF8AB8FF210A81E700631580 /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = DEVELOPER_DIR; };
 		D143BC49198EA8D5DEF7D34E2FD02DF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D314D81271537344A81DC1A5E2A65E35 /* p2p_synclib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = p2p_synclib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D618F5DF5244BA2C459F103C4D776606 /* Pods-p2p-synclib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-p2p-synclib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8AB900210A81E800631580 /* MultipeerConnectivity.framework in Frameworks */,
 				4647F5EDB5AF0C0236F67F1410EB4B84 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +218,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF8AB8FF210A81E700631580 /* MultipeerConnectivity.framework */,
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;

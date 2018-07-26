@@ -1,0 +1,10 @@
+framework module p2p_synclib {
+  umbrella header "p2p-synclib-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module p2p_synclib.__Swift {
+    exclude header "p2p_synclib-Swift.h"
+}

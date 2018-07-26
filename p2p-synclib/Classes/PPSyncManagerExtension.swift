@@ -6,18 +6,23 @@
 //
 
 import Foundation
+import MultipeerConnectivity
 
 extension PPSyncManger {
-    func _send(userData: Data, handler: ((Data, Bool) -> Void)?) {
+    
+    
+    func _broadcast(userData: Data, handler: ((Data, Bool) -> Void)?) {
         let change = Change(userData: userData)
+        let payload = Payload(type: .response, changes: [change])
+        
         if session.connectedPeers.count > 0 {
             do {
-                try self.session.send(change.toData(), toPeers: session.connectedPeers, with: .reliable)
-                handler(userData, true)
+                try self.session.send(payload.toData(), toPeers: session.connectedPeers, with: .reliable)
+                handler?(userData, true)
             }
             catch let error {
                 // to da
-                handler(userData, false)
+                handler?(userData, false)
             }
         }
     }
@@ -25,27 +30,58 @@ extension PPSyncManger {
 
 extension PPSyncManger : MCSessionDelegate {
     
-    func session(_ session: MCSession, peer peerID: MCPeerID, didChange state: MCSessionState) {
+    public func session(_ session: MCSession, peer peerID: MCPeerID, didChange state: MCSessionState) {
         debugPrint("peer \(peerID) didChangeState: \(state.rawValue)")
-        self.delegate?.connectedDevicesChanged(manager: self, connectedDevices:
-            session.connectedPeers.map{$0.displayName})
+        if state == .connected {
+            let payloadToSend = Payload(type: .request, changes: changes.last == nil ? [] : [changes.last!])
+            try? self.session.send(payloadToSend.toData(), toPeers: [peerID], with: .reliable)
+        }
     }
     
-    func session(_ session: MCSession, didReceive data: Data, fromPeer peerID: MCPeerID) {
+    public func session(_ session: MCSession, didReceive data: Data, fromPeer peerID: MCPeerID) {
         debugPrint("didReceiveData: \(data)")
+        //
+        let payload = try! JSONDecoder().decode(Payload.self, from: data)
+        switch payload.type {
         
-        self.receiveHandler(data)
+        case .request:
+            print("Send back sel.log - payload.log")
+            let wantedChanges:[Change]
+            if let first = payload.changes.first {
+                if let index = changes.index(of: first) {
+                wantedChanges = Array(changes[index..<changes.count])
+                } else {
+                    break
+                }
+            } else {
+                wantedChanges = changes
+            }
+            let payloadToSend = Payload(type: .response, changes: wantedChanges)
+            try? self.session.send(payloadToSend.toData(), toPeers: [peerID], with: .reliable)
+            
+        case .response:
+            print("CoreData check and update")
+            let neededChanges = payload.changes.filter { (change) -> Bool in
+                return !self.changes.contains(change)
+            }
+            changes = changes + neededChanges
+            
+            for change in neededChanges {
+                self.receiveHandler(change.userData)
+            }
+        }
+        
     }
     
-    func session(_ session: MCSession, didReceive stream: InputStream, withName streamName: String, fromPeer peerID: MCPeerID) {
+    public func session(_ session: MCSession, didReceive stream: InputStream, withName streamName: String, fromPeer peerID: MCPeerID) {
         debugPrint("didReceiveStream")
     }
     
-    func session(_ session: MCSession, didStartReceivingResourceWithName resourceName: String, fromPeer peerID: MCPeerID, with progress: Progress) {
+    public func session(_ session: MCSession, didStartReceivingResourceWithName resourceName: String, fromPeer peerID: MCPeerID, with progress: Progress) {
         debugPrint("didStartReceivingResourceWithName")
     }
     
-    func session(_ session: MCSession, didFinishReceivingResourceWithName resourceName: String, fromPeer peerID: MCPeerID, at localURL: URL?, withError error: Error?) {
+    public func session(_ session: MCSession, didFinishReceivingResourceWithName resourceName: String, fromPeer peerID: MCPeerID, at localURL: URL?, withError error: Error?) {
         debugPrint("didFinishReceivingResourceWithName")
     }
     
@@ -53,17 +89,17 @@ extension PPSyncManger : MCSessionDelegate {
 
 extension PPSyncManger : MCNearbyServiceBrowserDelegate {
     
-    func browser(_ browser: MCNearbyServiceBrowser, didNotStartBrowsingForPeers error: Error) {
+    public func browser(_ browser: MCNearbyServiceBrowser, didNotStartBrowsingForPeers error: Error) {
         debugPrint("didNotStartBrowsingForPeers: \(error)")
     }
     
-    func browser(_ browser: MCNearbyServiceBrowser, foundPeer peerID: MCPeerID, withDiscoveryInfo info: [String : String]?) {
+    public func browser(_ browser: MCNearbyServiceBrowser, foundPeer peerID: MCPeerID, withDiscoveryInfo info: [String : String]?) {
         debugPrint("foundPeer: \(peerID)")
         debugPrint("invitePeer: \(peerID)")
         browser.invitePeer(peerID, to: self.session, withContext: nil, timeout: 10)
     }
     
-    func browser(_ browser: MCNearbyServiceBrowser, lostPeer peerID: MCPeerID) {
+    public func browser(_ browser: MCNearbyServiceBrowser, lostPeer peerID: MCPeerID) {
         debugPrint("lostPeer: \(peerID)")
     }
     
@@ -71,11 +107,11 @@ extension PPSyncManger : MCNearbyServiceBrowserDelegate {
 
 extension PPSyncManger : MCNearbyServiceAdvertiserDelegate {
     
-    func advertiser(_ advertiser: MCNearbyServiceAdvertiser, didNotStartAdvertisingPeer error: Error) {
+    public func advertiser(_ advertiser: MCNearbyServiceAdvertiser, didNotStartAdvertisingPeer error: Error) {
         NSLog("%@", "didNotStartAdvertisingPeer: \(error)")
     }
     
-    func advertiser(_ advertiser: MCNearbyServiceAdvertiser, didReceiveInvitationFromPeer peerID: MCPeerID, withContext context: Data?, invitationHandler: @escaping (Bool, MCSession?) -> Void) {
+    public func advertiser(_ advertiser: MCNearbyServiceAdvertiser, didReceiveInvitationFromPeer peerID: MCPeerID, withContext context: Data?, invitationHandler: @escaping (Bool, MCSession?) -> Void) {
         NSLog("%@", "didReceiveInvitationFromPeer \(peerID)")
         invitationHandler(true, self.session)
     }
