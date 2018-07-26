@@ -16,6 +16,7 @@ extension PPSyncManger {
                 handler(userData, true)
             }
             catch let error {
+                // to da
                 handler(userData, false)
             }
         }
@@ -32,6 +33,7 @@ extension PPSyncManger : MCSessionDelegate {
     
     func session(_ session: MCSession, didReceive data: Data, fromPeer peerID: MCPeerID) {
         debugPrint("didReceiveData: \(data)")
+        
         self.receiveHandler(data)
     }
     

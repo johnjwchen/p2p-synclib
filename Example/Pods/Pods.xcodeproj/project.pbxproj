@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078D88B897BDA55E05AA671E49D1AEE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		08AAAB7694160395EB28FD3B9BABB2D8 /* p2p-synclib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4646C435CDEE5ED8325659F0D545FF2 /* p2p-synclib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A51069B8B2B67D5C15EC77DF2B529D8 /* Pods-p2p-synclib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 289492A1B72A90A4299F9DFD5A681995 /* Pods-p2p-synclib_Example-dummy.m */; };
+		1AC18C8A210A659800C61202 /* PPSyncManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC18C89210A659800C61202 /* PPSyncManger.swift */; };
+		1AC18C8B210A659800C61202 /* PPSyncManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC18C89210A659800C61202 /* PPSyncManger.swift */; };
+		1AC18C8D210A7BE600C61202 /* PPSyncManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC18C8C210A7BE600C61202 /* PPSyncManagerExtension.swift */; };
+		1AC18C8E210A7BE600C61202 /* PPSyncManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC18C8C210A7BE600C61202 /* PPSyncManagerExtension.swift */; };
+		26CFCEC097CE4F632770923F9D453A16 /* Pods-p2p-synclib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8367C98A576E151BA537406CBBE570BC /* Pods-p2p-synclib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35F623C30853C0E03C6BDE16B5ED814D /* Pods-p2p-synclib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8B60227664DBBE6EC37509A98A0DE3 /* Pods-p2p-synclib_Tests-dummy.m */; };
+		4647F5EDB5AF0C0236F67F1410EB4B84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		48B62C89777F02C662C8C267A9134E46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8B2D19114EBC1457159FA60B6B6494C6 /* p2p-synclib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 104F7D6D0A6D67C36D6F3C9E1CC16375 /* p2p-synclib-dummy.m */; };
+		A644DF4D2276B9A80191E49C7B84121C /* Pods-p2p-synclib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0696DE4E9504BF4D3DD34A8E045ABB59 /* Pods-p2p-synclib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		891C24BDEAE1984E48ACED604F5D4AE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1402AA3E1B57C2CE700B03FF573AF156;
+			remoteInfo = "p2p-synclib";
+		};
+		AF8C8480056F49A1702173C7DA7A1C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E447BD89AC7C6E4F98B27FF52A7F80BF;
+			remoteInfo = "Pods-p2p-synclib_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		047DBA02199EEC58485BFEE350AD8DBB /* Pods-p2p-synclib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-p2p-synclib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		0696DE4E9504BF4D3DD34A8E045ABB59 /* Pods-p2p-synclib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-p2p-synclib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0918A34DF9E600058DF3FA7E1753B675 /* p2p-synclib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = "p2p-synclib.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		09973457907883EDDDB1EBBD469BE92F /* Pods-p2p-synclib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-p2p-synclib_Tests-resources.sh"; sourceTree = "<group>"; };
+		0CD93E4BE23436F47862B9BD4DD7F62C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		104F7D6D0A6D67C36D6F3C9E1CC16375 /* p2p-synclib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "p2p-synclib-dummy.m"; sourceTree = "<group>"; };
+		1A39F15A72A53416641BEFE74DA02290 /* Pods-p2p-synclib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-p2p-synclib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1AC18C89210A659800C61202 /* PPSyncManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PPSyncManger.swift; path = "p2p-synclib/Classes/PPSyncManger.swift"; sourceTree = "<group>"; };
+		1AC18C8C210A7BE600C61202 /* PPSyncManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PPSyncManagerExtension.swift; path = "p2p-synclib/Classes/PPSyncManagerExtension.swift"; sourceTree = "<group>"; };
+		1E159C0121F76E5BD7E2E88549869D58 /* Pods-p2p-synclib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-p2p-synclib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		20F1E3C8E9EF25B3FB38728A97057E45 /* Pods_p2p_synclib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_p2p_synclib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D06D4A90DB15AAF0C904EDAD9E3A36 /* Pods-p2p-synclib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-p2p-synclib_Tests.modulemap"; sourceTree = "<group>"; };
+		289492A1B72A90A4299F9DFD5A681995 /* Pods-p2p-synclib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-p2p-synclib_Example-dummy.m"; sourceTree = "<group>"; };
+		2BA1F31675983C5E8A799523FF7B5EAC /* Pods-p2p-synclib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-p2p-synclib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		35683BA60D2023DD7DC806AD174C9ADB /* p2p-synclib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "p2p-synclib.xcconfig"; sourceTree = "<group>"; };
+		464771B8E764B07D58A7D3399F1FE398 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B76E2CA502C8BE97FF9535BDFEE213 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4D6D2233BB84B3E2528D862B83196B45 /* Pods-p2p-synclib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-p2p-synclib_Example.modulemap"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6E8B60227664DBBE6EC37509A98A0DE3 /* Pods-p2p-synclib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-p2p-synclib_Tests-dummy.m"; sourceTree = "<group>"; };
+		7F83B229D0F630599CE6B516AED448AA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7FE438D3E627E08B20F095E3BA0B5B0B /* Pods-p2p-synclib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-p2p-synclib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		801A5DC73A86431BF7EADAD85E5F5EF8 /* Pods-p2p-synclib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-p2p-synclib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		801C72972DE498B1F2B38AFFE176543E /* Pods-p2p-synclib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-p2p-synclib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8367C98A576E151BA537406CBBE570BC /* Pods-p2p-synclib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-p2p-synclib_Example-umbrella.h"; sourceTree = "<group>"; };
+		8D63847DCE2C95258F29C8604BAC6865 /* Pods-p2p-synclib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-p2p-synclib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97B9D016E9284E81CA2AAF8627294A83 /* Pods-p2p-synclib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-p2p-synclib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4646C435CDEE5ED8325659F0D545FF2 /* p2p-synclib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "p2p-synclib-umbrella.h"; sourceTree = "<group>"; };
+		BAD2341AEFCA96781504665C2F8597F6 /* p2p-synclib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "p2p-synclib-prefix.pch"; sourceTree = "<group>"; };
+		D143BC49198EA8D5DEF7D34E2FD02DF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D314D81271537344A81DC1A5E2A65E35 /* p2p_synclib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = p2p_synclib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D618F5DF5244BA2C459F103C4D776606 /* Pods-p2p-synclib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-p2p-synclib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EAA711674D4387A2FF885034DA315D7C /* Pods_p2p_synclib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_p2p_synclib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE13239304FAEA6A846F195898F644BF /* p2p-synclib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "p2p-synclib.modulemap"; sourceTree = "<group>"; };
+		F97609AD0262FEB02A74B696D778EAFF /* Pods-p2p-synclib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-p2p-synclib_Example-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4605E29CF0786F9907428C01B90D54EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B62C89777F02C662C8C267A9134E46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FB48D05F61BD57FA197660389FDAFE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4647F5EDB5AF0C0236F67F1410EB4B84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C73EECD4596272A8FF842BFAC05A16B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078D88B897BDA55E05AA671E49D1AEE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D629C12284334A7DD258ED55989BE7D /* Pods-p2p-synclib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D143BC49198EA8D5DEF7D34E2FD02DF1 /* Info.plist */,
+				4D6D2233BB84B3E2528D862B83196B45 /* Pods-p2p-synclib_Example.modulemap */,
+				801A5DC73A86431BF7EADAD85E5F5EF8 /* Pods-p2p-synclib_Example-acknowledgements.markdown */,
+				D618F5DF5244BA2C459F103C4D776606 /* Pods-p2p-synclib_Example-acknowledgements.plist */,
+				289492A1B72A90A4299F9DFD5A681995 /* Pods-p2p-synclib_Example-dummy.m */,
+				1E159C0121F76E5BD7E2E88549869D58 /* Pods-p2p-synclib_Example-frameworks.sh */,
+				F97609AD0262FEB02A74B696D778EAFF /* Pods-p2p-synclib_Example-resources.sh */,
+				8367C98A576E151BA537406CBBE570BC /* Pods-p2p-synclib_Example-umbrella.h */,
+				2BA1F31675983C5E8A799523FF7B5EAC /* Pods-p2p-synclib_Example.debug.xcconfig */,
+				801C72972DE498B1F2B38AFFE176543E /* Pods-p2p-synclib_Example.release.xcconfig */,
+			);
+			name = "Pods-p2p-synclib_Example";
+			path = "Target Support Files/Pods-p2p-synclib_Example";
+			sourceTree = "<group>";
+		};
+		22C936B07CE619D56E7243AF089A7DE4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D629C12284334A7DD258ED55989BE7D /* Pods-p2p-synclib_Example */,
+				527296D9B821D84551D82B31DE6E8857 /* Pods-p2p-synclib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2357EA357FECA2BD004B15E723E09745 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				46B76E2CA502C8BE97FF9535BDFEE213 /* LICENSE */,
+				0918A34DF9E600058DF3FA7E1753B675 /* p2p-synclib.podspec */,
+				7F83B229D0F630599CE6B516AED448AA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2CAE2FBAA60C43928AB3296067F663A6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC218041802604FA8190300B065B6EAA /* p2p-synclib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		527296D9B821D84551D82B31DE6E8857 /* Pods-p2p-synclib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0CD93E4BE23436F47862B9BD4DD7F62C /* Info.plist */,
+				24D06D4A90DB15AAF0C904EDAD9E3A36 /* Pods-p2p-synclib_Tests.modulemap */,
+				7FE438D3E627E08B20F095E3BA0B5B0B /* Pods-p2p-synclib_Tests-acknowledgements.markdown */,
+				1A39F15A72A53416641BEFE74DA02290 /* Pods-p2p-synclib_Tests-acknowledgements.plist */,
+				6E8B60227664DBBE6EC37509A98A0DE3 /* Pods-p2p-synclib_Tests-dummy.m */,
+				047DBA02199EEC58485BFEE350AD8DBB /* Pods-p2p-synclib_Tests-frameworks.sh */,
+				09973457907883EDDDB1EBBD469BE92F /* Pods-p2p-synclib_Tests-resources.sh */,
+				0696DE4E9504BF4D3DD34A8E045ABB59 /* Pods-p2p-synclib_Tests-umbrella.h */,
+				97B9D016E9284E81CA2AAF8627294A83 /* Pods-p2p-synclib_Tests.debug.xcconfig */,
+				8D63847DCE2C95258F29C8604BAC6865 /* Pods-p2p-synclib_Tests.release.xcconfig */,
+			);
+			name = "Pods-p2p-synclib_Tests";
+			path = "Target Support Files/Pods-p2p-synclib_Tests";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		78650A612B17E941A12C37D6204CCD3F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				464771B8E764B07D58A7D3399F1FE398 /* Info.plist */,
+				EE13239304FAEA6A846F195898F644BF /* p2p-synclib.modulemap */,
+				35683BA60D2023DD7DC806AD174C9ADB /* p2p-synclib.xcconfig */,
+				104F7D6D0A6D67C36D6F3C9E1CC16375 /* p2p-synclib-dummy.m */,
+				BAD2341AEFCA96781504665C2F8597F6 /* p2p-synclib-prefix.pch */,
+				A4646C435CDEE5ED8325659F0D545FF2 /* p2p-synclib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/p2p-synclib";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2CAE2FBAA60C43928AB3296067F663A6 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9B99EE51A3F5C944EFC6058C5819F592 /* Products */,
+				22C936B07CE619D56E7243AF089A7DE4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9B99EE51A3F5C944EFC6058C5819F592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D314D81271537344A81DC1A5E2A65E35 /* p2p_synclib.framework */,
+				20F1E3C8E9EF25B3FB38728A97057E45 /* Pods_p2p_synclib_Example.framework */,
+				EAA711674D4387A2FF885034DA315D7C /* Pods_p2p_synclib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC218041802604FA8190300B065B6EAA /* p2p-synclib */ = {
+			isa = PBXGroup;
+			children = (
+				1AC18C89210A659800C61202 /* PPSyncManger.swift */,
+				1AC18C8C210A7BE600C61202 /* PPSyncManagerExtension.swift */,
+				2357EA357FECA2BD004B15E723E09745 /* Pod */,
+				78650A612B17E941A12C37D6204CCD3F /* Support Files */,
+			);
+			name = "p2p-synclib";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		120657E3A665CF73EA0917C6CAEB4250 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CFCEC097CE4F632770923F9D453A16 /* Pods-p2p-synclib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13635EF4BCC3529F32CB7254BFDD603C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A644DF4D2276B9A80191E49C7B84121C /* Pods-p2p-synclib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBBFB2C23EAD357F66ECA25E60AB669F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AAAB7694160395EB28FD3B9BABB2D8 /* p2p-synclib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		005A97232554D3EB71CEF36342E7ACB3 /* Pods-p2p-synclib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA7846AD6D6E2FDBB5BDAAE1639ADC1 /* Build configuration list for PBXNativeTarget "Pods-p2p-synclib_Tests" */;
+			buildPhases = (
+				7A13B05BFE3839E3AE246D4A45338130 /* Sources */,
+				C73EECD4596272A8FF842BFAC05A16B4 /* Frameworks */,
+				13635EF4BCC3529F32CB7254BFDD603C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E96EA7A1D39F957FCAEA4D193855B4A /* PBXTargetDependency */,
+			);
+			name = "Pods-p2p-synclib_Tests";
+			productName = "Pods-p2p-synclib_Tests";
+			productReference = EAA711674D4387A2FF885034DA315D7C /* Pods_p2p_synclib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1402AA3E1B57C2CE700B03FF573AF156 /* p2p-synclib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0195266C47E233CD292FF2A93B2076 /* Build configuration list for PBXNativeTarget "p2p-synclib" */;
+			buildPhases = (
+				4AD086BA904356CAFB3620DA97C1C81A /* Sources */,
+				8FB48D05F61BD57FA197660389FDAFE4 /* Frameworks */,
+				FBBFB2C23EAD357F66ECA25E60AB669F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "p2p-synclib";
+			productName = "p2p-synclib";
+			productReference = D314D81271537344A81DC1A5E2A65E35 /* p2p_synclib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E447BD89AC7C6E4F98B27FF52A7F80BF /* Pods-p2p-synclib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7EA9A8B7EDF50D976BFA092C4EA7798 /* Build configuration list for PBXNativeTarget "Pods-p2p-synclib_Example" */;
+			buildPhases = (
+				0B88E0CF319149F1B524A4C3174AAEFD /* Sources */,
+				4605E29CF0786F9907428C01B90D54EE /* Frameworks */,
+				120657E3A665CF73EA0917C6CAEB4250 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22BDBCC51F342DC4E87E0EE0561669D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-p2p-synclib_Example";
+			productName = "Pods-p2p-synclib_Example";
+			productReference = 20F1E3C8E9EF25B3FB38728A97057E45 /* Pods_p2p_synclib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					005A97232554D3EB71CEF36342E7ACB3 = {
+						LastSwiftMigration = 0940;
+					};
+					1402AA3E1B57C2CE700B03FF573AF156 = {
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9B99EE51A3F5C944EFC6058C5819F592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1402AA3E1B57C2CE700B03FF573AF156 /* p2p-synclib */,
+				E447BD89AC7C6E4F98B27FF52A7F80BF /* Pods-p2p-synclib_Example */,
+				005A97232554D3EB71CEF36342E7ACB3 /* Pods-p2p-synclib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B88E0CF319149F1B524A4C3174AAEFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51069B8B2B67D5C15EC77DF2B529D8 /* Pods-p2p-synclib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AD086BA904356CAFB3620DA97C1C81A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC18C8D210A7BE600C61202 /* PPSyncManagerExtension.swift in Sources */,
+				1AC18C8A210A659800C61202 /* PPSyncManger.swift in Sources */,
+				8B2D19114EBC1457159FA60B6B6494C6 /* p2p-synclib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A13B05BFE3839E3AE246D4A45338130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC18C8E210A7BE600C61202 /* PPSyncManagerExtension.swift in Sources */,
+				1AC18C8B210A659800C61202 /* PPSyncManger.swift in Sources */,
+				35F623C30853C0E03C6BDE16B5ED814D /* Pods-p2p-synclib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E96EA7A1D39F957FCAEA4D193855B4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-p2p-synclib_Example";
+			target = E447BD89AC7C6E4F98B27FF52A7F80BF /* Pods-p2p-synclib_Example */;
+			targetProxy = AF8C8480056F49A1702173C7DA7A1C84 /* PBXContainerItemProxy */;
+		};
+		22BDBCC51F342DC4E87E0EE0561669D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "p2p-synclib";
+			target = 1402AA3E1B57C2CE700B03FF573AF156 /* p2p-synclib */;
+			targetProxy = 891C24BDEAE1984E48ACED604F5D4AE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27D5BD52F4ECA916B6BD8E7B5CC889CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35683BA60D2023DD7DC806AD174C9ADB /* p2p-synclib.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/p2p-synclib/p2p-synclib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/p2p-synclib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/p2p-synclib/p2p-synclib.modulemap";
+				PRODUCT_MODULE_NAME = p2p_synclib;
+				PRODUCT_NAME = p2p_synclib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		373BE16A31027CDAE083B2A92089B056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35683BA60D2023DD7DC806AD174C9ADB /* p2p-synclib.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/p2p-synclib/p2p-synclib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/p2p-synclib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/p2p-synclib/p2p-synclib.modulemap";
+				PRODUCT_MODULE_NAME = p2p_synclib;
+				PRODUCT_NAME = p2p_synclib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8031DFAD50BD95A7F4EAD71A44B11C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA1F31675983C5E8A799523FF7B5EAC /* Pods-p2p-synclib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-p2p-synclib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-p2p-synclib_Example/Pods-p2p-synclib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81F54ABAABECBA3DF99E1874A1A77816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801C72972DE498B1F2B38AFFE176543E /* Pods-p2p-synclib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-p2p-synclib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-p2p-synclib_Example/Pods-p2p-synclib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BA4611579CF561C20EFBB36561D60DC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D63847DCE2C95258F29C8604BAC6865 /* Pods-p2p-synclib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-p2p-synclib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-p2p-synclib_Tests/Pods-p2p-synclib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9C2E9593A070F90ABE9F2E0EB4F394F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B9D016E9284E81CA2AAF8627294A83 /* Pods-p2p-synclib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-p2p-synclib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-p2p-synclib_Tests/Pods-p2p-synclib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0195266C47E233CD292FF2A93B2076 /* Build configuration list for PBXNativeTarget "p2p-synclib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D5BD52F4ECA916B6BD8E7B5CC889CD /* Debug */,
+				373BE16A31027CDAE083B2A92089B056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7EA9A8B7EDF50D976BFA092C4EA7798 /* Build configuration list for PBXNativeTarget "Pods-p2p-synclib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8031DFAD50BD95A7F4EAD71A44B11C21 /* Debug */,
+				81F54ABAABECBA3DF99E1874A1A77816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA7846AD6D6E2FDBB5BDAAE1639ADC1 /* Build configuration list for PBXNativeTarget "Pods-p2p-synclib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C2E9593A070F90ABE9F2E0EB4F394F /* Debug */,
+				BA4611579CF561C20EFBB36561D60DC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

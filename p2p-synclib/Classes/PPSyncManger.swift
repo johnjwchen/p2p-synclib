@@ -49,7 +49,7 @@ public class PPSyncManger: NSObject {
     
     // changes
     var changes = [Change]()
-    var peeQueues = [String:[Change]]()
+    var peerQueues = [String : [Change]]()
 }
 
 

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'p2p-synclib_Example' do
+  pod 'p2p-synclib', :path => '../'
+
+  target 'p2p-synclib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module Pods_p2p_synclib_Example {
+  umbrella header "Pods-p2p-synclib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
