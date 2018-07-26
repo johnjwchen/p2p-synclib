@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'p2p-synclib'
   s.version          = '0.1.0'
-  s.summary          = 'p2p sync lib using MultipeerConnectivity'
+  s.summary          = 'p2p sync lib'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
