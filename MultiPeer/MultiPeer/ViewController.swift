@@ -22,10 +22,14 @@ struct Message {
 
 class ViewController: UIViewController {
     
-    var syncManager: PPSyncManger!
+    var syncManager:PPSyncManger!
     
     var messages:[Message] = [] {
-        didSet {self.reload()}
+        didSet {
+            OperationQueue.main.addOperation {
+                self.reload()
+            }
+        }
     }
     
     @IBOutlet weak var connectionsLabel: UILabel!
@@ -35,12 +39,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         hideKeyboardWhenTappedAround()
-        self.syncManager = PPSyncManger(handler: { [weak self] (data) in
-            guard let msg = String(bytes: data, encoding: .utf8) else {
-                return
-            }
-            self?.messages.append(Message(body: msg, direction: .outbound))
-        })
         messageTableview.dataSource = self
         messageTableview.register(UINib(nibName: "SentCell", bundle: nil), forCellReuseIdentifier: "SentCell")
         messageTableview.register(UINib(nibName: "ReceivedCell", bundle: nil), forCellReuseIdentifier: "ReceivedCell")
@@ -57,21 +55,36 @@ class ViewController: UIViewController {
             name: NSNotification.Name.UIKeyboardWillHide,
             object: nil
         )
+        NotificationCenter.default.addObserver(forName: NSNotification.Name.UIApplicationDidEnterBackground, object: nil, queue: nil) { _ in
+            self.syncManager.pause()
+        }
+        NotificationCenter.default.addObserver(forName: NSNotification.Name.UIApplicationDidBecomeActive, object: nil, queue: nil) { _ in
+            self.syncManager.resume()
+        }
+        
+        syncManager = PPSyncManger(handler: { data in
+            let message = String(data: data, encoding: .utf8) ?? "FAILED"
+            let msg = Message(body: message, direction: .inbound)
+            self.messages.append(msg)
+        }, changedConnections: { num in
+            OperationQueue.main.addOperation {
+                self.connectionsLabel.text = "\(num)"
+            }
+        })
+        
     }
     
     func reload() {
-        DispatchQueue.main.async {
-            self.messageTableview.reloadData()
-        }
-//        messageTableview.scrollToRow(at: IndexPath(row: messages.count-1, section: 0), at: .bottom, animated: true)
+        messageTableview.reloadData()
+        //        messageTableview.scrollToRow(at: IndexPath(row: messages.count-1, section: 0), at: .bottom, animated: true)
     }
     
     @IBAction func textFieldDidReturn(_ sender: UITextField) {
         guard let msg = sender.text else { return }
         messages.append(Message(body: msg, direction: .outbound))
-        sender.text = ""
-        guard let data = msg.data(using: .utf8) else { return }
+        let data = msg.data(using: String.Encoding.utf8) ?? Data()
         syncManager.broadcast(userData: data, handler: nil)
+        sender.text = ""
         self.reload()
     }
     
