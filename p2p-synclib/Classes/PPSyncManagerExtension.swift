@@ -38,7 +38,7 @@ extension PPSyncManger : MCSessionDelegate {
         debugPrint("peer \(peerID) didChangeState: \(state.rawValue)")
         changedConnections?(session.connectedPeers.count)
         if state == .connected {
-            let payloadToSend = Payload(type: .request, changes: changes.last == nil ? [] : [changes.last!])
+            let payloadToSend = Payload(type: .request, changes: changes.last == nil ? [] : changes)
             try? self.session.send(payloadToSend.toData(), toPeers: [peerID], with: .reliable)
         }
     }
@@ -53,16 +53,9 @@ extension PPSyncManger : MCSessionDelegate {
             switch payload.type {
             case .request:
                 print("Send back sel.log - payload.log")
-                let wantedChanges:[Change]
-                if let first = payload.changes.first {
-                    if let index = self.changes.index(of: first) {
-                        wantedChanges = Array(self.changes[index..<self.changes.count])
-                    } else {
-                        break
-                    }
-                } else {
-                    wantedChanges = self.changes
-                }
+                let wantedChanges:[Change] = self.changes.filter({ (change) -> Bool in
+                    return !payload.changes.contains(change)
+                })
                 let payloadToSend = Payload(type: .response, changes: wantedChanges)
                 try? self.session.send(payloadToSend.toData(), toPeers: [peerID], with: .reliable)
                 
