@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'MultiPeer' do
+  pod 'p2p-synclib', :path => '../'
+end

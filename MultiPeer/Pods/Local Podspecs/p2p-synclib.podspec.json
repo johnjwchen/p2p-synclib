@@ -1,0 +1,23 @@
+{
+  "name": "p2p-synclib",
+  "version": "0.1.1",
+  "summary": "p2p sync lib",
+  "description": "p2p sync lib using MultipeerConnectivity",
+  "homepage": "https://github.com/johnjwchen/p2p-synclib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "johnjwchen": "jwchen@yelp.com"
+  },
+  "source": {
+    "git": "https://github.com/johnjwchen/p2p-synclib.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "p2p-synclib/Classes/**/*",
+  "frameworks": "MultipeerConnectivity"
+}

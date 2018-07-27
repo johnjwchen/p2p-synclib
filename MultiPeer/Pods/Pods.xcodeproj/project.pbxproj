@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030E674C65C0B90A800D6996A2B3F227 /* Pods-MultiPeer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CCD4B31AE735366F51E18BC5A68695 /* Pods-MultiPeer-dummy.m */; };
+		45DADAC290F81760E846B87FC51103FD /* p2p-synclib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4699969AFDE82054096CE37D76CED6F2 /* p2p-synclib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEB9D1DA33A38CB317972AAB6D81049 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D36C5A38EBF40E59F02156BE89E873D /* Foundation.framework */; };
+		711061BD6367E4E226E56140F58DCD83 /* p2p-synclib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA0715D531684669D3A80AE0321C5B2 /* p2p-synclib-dummy.m */; };
+		71D9699C1094B8814352474C27A2CB03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D36C5A38EBF40E59F02156BE89E873D /* Foundation.framework */; };
+		93205047036B45DDADEEC6F422F39029 /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5B88D5DBFF7D367F098C91B6732C8D /* MultipeerConnectivity.framework */; };
+		B155F3F272F46002E0C10F60051CB00E /* PPSyncManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4531721184DAB76EE155A66165115AD0 /* PPSyncManagerExtension.swift */; };
+		C54E6BEC37FCF25DDBCA5A3E62631D68 /* PPSyncManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4BD0FF871A4FF6EF575B6D02C8CE67 /* PPSyncManger.swift */; };
+		C72C2D2FAA02117FCBC68BF5CED2C353 /* Pods-MultiPeer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41819D7C605FD4AA68E5651C90BAB4D2 /* Pods-MultiPeer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B96AB8021477166ACAE02206CB03C72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C383A295874E6CB8B12DD1804A2C12C;
+			remoteInfo = "p2p-synclib";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AD7196AD3CBA9DBC64F7B524E8D308C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC9FB45191C945C025E4FFF906210DD /* p2p_synclib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = p2p_synclib.framework; path = "p2p-synclib.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		137672A2FC4245DAF9D942DF9F2B882F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1EE8C2C7A528E3265F1D6A014451E2E0 /* p2p-synclib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = "p2p-synclib.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		340F7BD9ED0D423D00BBF1E1728AB4AA /* p2p-synclib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "p2p-synclib.xcconfig"; sourceTree = "<group>"; };
+		3D145FBE420FEB5AFC0CCB68FE010A95 /* Pods-MultiPeer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MultiPeer-acknowledgements.plist"; sourceTree = "<group>"; };
+		410A0070290D3436C23D7D48E61FE0CF /* Pods-MultiPeer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MultiPeer.modulemap"; sourceTree = "<group>"; };
+		41819D7C605FD4AA68E5651C90BAB4D2 /* Pods-MultiPeer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MultiPeer-umbrella.h"; sourceTree = "<group>"; };
+		4531721184DAB76EE155A66165115AD0 /* PPSyncManagerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PPSyncManagerExtension.swift; path = "p2p-synclib/Classes/PPSyncManagerExtension.swift"; sourceTree = "<group>"; };
+		4699969AFDE82054096CE37D76CED6F2 /* p2p-synclib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "p2p-synclib-umbrella.h"; sourceTree = "<group>"; };
+		5D07AFB21ABAE42E2145683EAB3F1AB4 /* Pods-MultiPeer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiPeer-frameworks.sh"; sourceTree = "<group>"; };
+		5D36C5A38EBF40E59F02156BE89E873D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79F1B9D7BAD0C1CB2F4EA7086533D1E5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BE5E11577E5E70FAF3C5BEBE0ACB873 /* Pods-MultiPeer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MultiPeer-resources.sh"; sourceTree = "<group>"; };
+		8D690F1CE726F9F300031575FE372689 /* p2p-synclib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "p2p-synclib-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9870111D947A60AF5C250CF2DEE6C409 /* Pods-MultiPeer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiPeer.debug.xcconfig"; sourceTree = "<group>"; };
+		A3CCD4B31AE735366F51E18BC5A68695 /* Pods-MultiPeer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MultiPeer-dummy.m"; sourceTree = "<group>"; };
+		A91F0498943EA4A479DB940379D95D49 /* Pods_MultiPeer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MultiPeer.framework; path = "Pods-MultiPeer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4BD0FF871A4FF6EF575B6D02C8CE67 /* PPSyncManger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PPSyncManger.swift; path = "p2p-synclib/Classes/PPSyncManger.swift"; sourceTree = "<group>"; };
+		BA6DF3450CBA951C28CCDF64CC8312FE /* Pods-MultiPeer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MultiPeer.release.xcconfig"; sourceTree = "<group>"; };
+		BD02727DDCD493B54A6A581FD3F4B291 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C2F039F946234B432C8EC9A8BD720D61 /* p2p-synclib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "p2p-synclib.modulemap"; sourceTree = "<group>"; };
+		CEA0715D531684669D3A80AE0321C5B2 /* p2p-synclib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "p2p-synclib-dummy.m"; sourceTree = "<group>"; };
+		DC5B88D5DBFF7D367F098C91B6732C8D /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		F6984B7EDC1FC95A2403A31177C54710 /* Pods-MultiPeer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MultiPeer-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		858B3D2B605D60F886ABD4A5DDA8C867 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71D9699C1094B8814352474C27A2CB03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE338F842EB52B0299596F36664DF3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FEB9D1DA33A38CB317972AAB6D81049 /* Foundation.framework in Frameworks */,
+				93205047036B45DDADEEC6F422F39029 /* MultipeerConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0185BA646AC4EAA53941882EDEDBD383 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5D36C5A38EBF40E59F02156BE89E873D /* Foundation.framework */,
+				DC5B88D5DBFF7D367F098C91B6732C8D /* MultipeerConnectivity.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1EE18BAF5BC70A070B09D3E340970C06 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9571D5C386A5537E1309C297A98AAEDF /* p2p-synclib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		21B2E2F0A4672F02E284A5F99863BD58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EC9FB45191C945C025E4FFF906210DD /* p2p_synclib.framework */,
+				A91F0498943EA4A479DB940379D95D49 /* Pods_MultiPeer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E07E8DD46D9E540C36ACD02E5FA928F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49924634FE592DF1BAAB6FFAD205CDE6 /* Pods-MultiPeer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0185BA646AC4EAA53941882EDEDBD383 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49924634FE592DF1BAAB6FFAD205CDE6 /* Pods-MultiPeer */ = {
+			isa = PBXGroup;
+			children = (
+				0AD7196AD3CBA9DBC64F7B524E8D308C /* Info.plist */,
+				410A0070290D3436C23D7D48E61FE0CF /* Pods-MultiPeer.modulemap */,
+				F6984B7EDC1FC95A2403A31177C54710 /* Pods-MultiPeer-acknowledgements.markdown */,
+				3D145FBE420FEB5AFC0CCB68FE010A95 /* Pods-MultiPeer-acknowledgements.plist */,
+				A3CCD4B31AE735366F51E18BC5A68695 /* Pods-MultiPeer-dummy.m */,
+				5D07AFB21ABAE42E2145683EAB3F1AB4 /* Pods-MultiPeer-frameworks.sh */,
+				8BE5E11577E5E70FAF3C5BEBE0ACB873 /* Pods-MultiPeer-resources.sh */,
+				41819D7C605FD4AA68E5651C90BAB4D2 /* Pods-MultiPeer-umbrella.h */,
+				9870111D947A60AF5C250CF2DEE6C409 /* Pods-MultiPeer.debug.xcconfig */,
+				BA6DF3450CBA951C28CCDF64CC8312FE /* Pods-MultiPeer.release.xcconfig */,
+			);
+			name = "Pods-MultiPeer";
+			path = "Target Support Files/Pods-MultiPeer";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1EE18BAF5BC70A070B09D3E340970C06 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				21B2E2F0A4672F02E284A5F99863BD58 /* Products */,
+				2E07E8DD46D9E540C36ACD02E5FA928F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DE6657A78E83EA53123536491735803 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BD02727DDCD493B54A6A581FD3F4B291 /* LICENSE */,
+				1EE8C2C7A528E3265F1D6A014451E2E0 /* p2p-synclib.podspec */,
+				137672A2FC4245DAF9D942DF9F2B882F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9571D5C386A5537E1309C297A98AAEDF /* p2p-synclib */ = {
+			isa = PBXGroup;
+			children = (
+				4531721184DAB76EE155A66165115AD0 /* PPSyncManagerExtension.swift */,
+				AD4BD0FF871A4FF6EF575B6D02C8CE67 /* PPSyncManger.swift */,
+				8DE6657A78E83EA53123536491735803 /* Pod */,
+				EB6291610D81F26F8ED406CA712E2A92 /* Support Files */,
+			);
+			name = "p2p-synclib";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EB6291610D81F26F8ED406CA712E2A92 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79F1B9D7BAD0C1CB2F4EA7086533D1E5 /* Info.plist */,
+				C2F039F946234B432C8EC9A8BD720D61 /* p2p-synclib.modulemap */,
+				340F7BD9ED0D423D00BBF1E1728AB4AA /* p2p-synclib.xcconfig */,
+				CEA0715D531684669D3A80AE0321C5B2 /* p2p-synclib-dummy.m */,
+				8D690F1CE726F9F300031575FE372689 /* p2p-synclib-prefix.pch */,
+				4699969AFDE82054096CE37D76CED6F2 /* p2p-synclib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "MultiPeer/Pods/Target Support Files/p2p-synclib";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4628F854C72D193F9F1F25FB3D681AE3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C72C2D2FAA02117FCBC68BF5CED2C353 /* Pods-MultiPeer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FEF24D9DC6E10A539A03BD859C4FEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45DADAC290F81760E846B87FC51103FD /* p2p-synclib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		58E691B095502321B9BFFEB00E671C50 /* Pods-MultiPeer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C976E49DA86DBB6D4EF8B7146DF46ADB /* Build configuration list for PBXNativeTarget "Pods-MultiPeer" */;
+			buildPhases = (
+				58CEF2A9600FCA388AB65BC024595CDE /* Sources */,
+				858B3D2B605D60F886ABD4A5DDA8C867 /* Frameworks */,
+				4628F854C72D193F9F1F25FB3D681AE3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B428F965D34A40DAE641BD122DBB56F /* PBXTargetDependency */,
+			);
+			name = "Pods-MultiPeer";
+			productName = "Pods-MultiPeer";
+			productReference = A91F0498943EA4A479DB940379D95D49 /* Pods_MultiPeer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5C383A295874E6CB8B12DD1804A2C12C /* p2p-synclib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C53B7D638FE6B57768BB2E08049968D5 /* Build configuration list for PBXNativeTarget "p2p-synclib" */;
+			buildPhases = (
+				25C509613037EA2564217549BC4011F1 /* Sources */,
+				BE338F842EB52B0299596F36664DF3AF /* Frameworks */,
+				51FEF24D9DC6E10A539A03BD859C4FEE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "p2p-synclib";
+			productName = "p2p-synclib";
+			productReference = 0EC9FB45191C945C025E4FFF906210DD /* p2p_synclib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 21B2E2F0A4672F02E284A5F99863BD58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C383A295874E6CB8B12DD1804A2C12C /* p2p-synclib */,
+				58E691B095502321B9BFFEB00E671C50 /* Pods-MultiPeer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25C509613037EA2564217549BC4011F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				711061BD6367E4E226E56140F58DCD83 /* p2p-synclib-dummy.m in Sources */,
+				B155F3F272F46002E0C10F60051CB00E /* PPSyncManagerExtension.swift in Sources */,
+				C54E6BEC37FCF25DDBCA5A3E62631D68 /* PPSyncManger.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58CEF2A9600FCA388AB65BC024595CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030E674C65C0B90A800D6996A2B3F227 /* Pods-MultiPeer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B428F965D34A40DAE641BD122DBB56F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "p2p-synclib";
+			target = 5C383A295874E6CB8B12DD1804A2C12C /* p2p-synclib */;
+			targetProxy = 7B96AB8021477166ACAE02206CB03C72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F0A03B81AEA58E43F6D688D560FA056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9870111D947A60AF5C250CF2DEE6C409 /* Pods-MultiPeer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MultiPeer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MultiPeer/Pods-MultiPeer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2996877608FF4F737138DAFBC1A46F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340F7BD9ED0D423D00BBF1E1728AB4AA /* p2p-synclib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/p2p-synclib/p2p-synclib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/p2p-synclib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/p2p-synclib/p2p-synclib.modulemap";
+				PRODUCT_MODULE_NAME = p2p_synclib;
+				PRODUCT_NAME = p2p_synclib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		709D09A749F7F6F440B4B47A59677B5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 340F7BD9ED0D423D00BBF1E1728AB4AA /* p2p-synclib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/p2p-synclib/p2p-synclib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/p2p-synclib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/p2p-synclib/p2p-synclib.modulemap";
+				PRODUCT_MODULE_NAME = p2p_synclib;
+				PRODUCT_NAME = p2p_synclib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F4478B8DAAE8016C2826E1EDA20857B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6DF3450CBA951C28CCDF64CC8312FE /* Pods-MultiPeer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MultiPeer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MultiPeer/Pods-MultiPeer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C53B7D638FE6B57768BB2E08049968D5 /* Build configuration list for PBXNativeTarget "p2p-synclib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				709D09A749F7F6F440B4B47A59677B5A /* Debug */,
+				2996877608FF4F737138DAFBC1A46F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C976E49DA86DBB6D4EF8B7146DF46ADB /* Build configuration list for PBXNativeTarget "Pods-MultiPeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0A03B81AEA58E43F6D688D560FA056 /* Debug */,
+				F4478B8DAAE8016C2826E1EDA20857B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

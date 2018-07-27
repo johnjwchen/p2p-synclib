@@ -1,0 +1,16 @@
+PODS:
+  - p2p-synclib (0.1.1)
+
+DEPENDENCIES:
+  - p2p-synclib (from `../`)
+
+EXTERNAL SOURCES:
+  p2p-synclib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  p2p-synclib: b60679e565747112fc2d8e0748e67ec186b14037
+
+PODFILE CHECKSUM: 083ef750b24a6590be52fcfa8ffeb2890dc0be86
+
+COCOAPODS: 1.5.3
