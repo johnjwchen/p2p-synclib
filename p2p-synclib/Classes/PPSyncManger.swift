@@ -10,34 +10,44 @@ import MultipeerConnectivity
 
 public class PPSyncManger: NSObject {
     public var receiveHandler: ((Data) -> Void)
+    public var changedConnections: ((Int) -> Void)?
+    
     public func broadcast(userData: Data, handler: ((Data, Bool) -> Void)?) {
         _broadcast(userData: userData, handler: handler)
     }
+    public func resume() {
+        self.serviceAdvertiser.startAdvertisingPeer()
+        self.serviceBrowser.startBrowsingForPeers()
+        
+    }
+    public func pause() {
+        self.serviceAdvertiser.stopAdvertisingPeer()
+        self.serviceBrowser.stopBrowsingForPeers()
+        _session = nil
+    }
     
     // public static let shared = PPSyncManger()
-    
+    let operationQueue = OperationQueue()
     private let serviceType = "p2p-sync"
     private let myPeerId = MCPeerID(displayName: UUID().uuidString)
     private let serviceAdvertiser : MCNearbyServiceAdvertiser
     private let serviceBrowser : MCNearbyServiceBrowser
     
-    public init(handler: @escaping (Data)->Void) {
+    public init(handler: @escaping (Data)->Void, changedConnections: ((Int) -> Void)? = nil) {
         self.receiveHandler = handler
+        self.changedConnections = changedConnections
         self.serviceAdvertiser = MCNearbyServiceAdvertiser(peer: myPeerId, discoveryInfo: nil, serviceType: serviceType)
         self.serviceBrowser = MCNearbyServiceBrowser(peer: myPeerId, serviceType: serviceType)
         
         super.init()
         
         self.serviceAdvertiser.delegate = self
-        self.serviceAdvertiser.startAdvertisingPeer()
-        
         self.serviceBrowser.delegate = self
-        self.serviceBrowser.startBrowsingForPeers()
+        self.resume()
     }
     
     deinit {
-        self.serviceAdvertiser.stopAdvertisingPeer()
-        self.serviceBrowser.stopBrowsingForPeers()
+        self.pause()
     }
     
     //

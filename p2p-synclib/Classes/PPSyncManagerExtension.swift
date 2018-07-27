@@ -13,6 +13,10 @@ extension PPSyncManger {
     
     func _broadcast(userData: Data, handler: ((Data, Bool) -> Void)?) {
         let change = Change(userData: userData)
+        operationQueue.addOperation {
+            self.changes.append(change)
+        }
+        
         let payload = Payload(type: .response, changes: [change])
         
         if session.connectedPeers.count > 0 {
@@ -32,6 +36,7 @@ extension PPSyncManger : MCSessionDelegate {
     
     public func session(_ session: MCSession, peer peerID: MCPeerID, didChange state: MCSessionState) {
         debugPrint("peer \(peerID) didChangeState: \(state.rawValue)")
+        changedConnections?(session.connectedPeers.count)
         if state == .connected {
             let payloadToSend = Payload(type: .request, changes: changes.last == nil ? [] : [changes.last!])
             try? self.session.send(payloadToSend.toData(), toPeers: [peerID], with: .reliable)
@@ -42,35 +47,38 @@ extension PPSyncManger : MCSessionDelegate {
         debugPrint("didReceiveData: \(data)")
         //
         let payload = try! JSONDecoder().decode(Payload.self, from: data)
-        switch payload.type {
-        
-        case .request:
-            print("Send back sel.log - payload.log")
-            let wantedChanges:[Change]
-            if let first = payload.changes.first {
-                if let index = changes.index(of: first) {
-                wantedChanges = Array(changes[index..<changes.count])
+        operationQueue.addOperation {
+            print(" --- ")
+            print(self.changes)
+            switch payload.type {
+            case .request:
+                print("Send back sel.log - payload.log")
+                let wantedChanges:[Change]
+                if let first = payload.changes.first {
+                    if let index = self.changes.index(of: first) {
+                        wantedChanges = Array(self.changes[index..<self.changes.count])
+                    } else {
+                        break
+                    }
                 } else {
-                    break
+                    wantedChanges = self.changes
                 }
-            } else {
-                wantedChanges = changes
-            }
-            let payloadToSend = Payload(type: .response, changes: wantedChanges)
-            try? self.session.send(payloadToSend.toData(), toPeers: [peerID], with: .reliable)
-            
-        case .response:
-            print("CoreData check and update")
-            let neededChanges = payload.changes.filter { (change) -> Bool in
-                return !self.changes.contains(change)
-            }
-            changes = changes + neededChanges
-            
-            for change in neededChanges {
-                self.receiveHandler(change.userData)
+                let payloadToSend = Payload(type: .response, changes: wantedChanges)
+                try? self.session.send(payloadToSend.toData(), toPeers: [peerID], with: .reliable)
+                
+            case .response:
+                print("CoreData check and update")
+                let ids = Set(self.changes.map({$0.uuid}))
+                let neededChanges = payload.changes.filter { (change) -> Bool in
+                    return !ids.contains(change.uuid)
+                }
+                self.changes = self.changes + neededChanges
+                
+                for change in neededChanges {
+                    self.receiveHandler(change.userData)
+                }
             }
         }
-        
     }
     
     public func session(_ session: MCSession, didReceive stream: InputStream, withName streamName: String, fromPeer peerID: MCPeerID) {
