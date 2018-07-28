@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B9E81DC2109986800767DE3 /* SentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9E81DA2109986800767DE3 /* SentCell.swift */; };
-		1B9E81DD2109986800767DE3 /* SentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E81DB2109986800767DE3 /* SentCell.xib */; };
-		1B9E81E02109988500767DE3 /* ReceivedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9E81DE2109988500767DE3 /* ReceivedCell.swift */; };
-		1B9E81E12109988500767DE3 /* ReceivedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9E81DF2109988500767DE3 /* ReceivedCell.xib */; };
 		1B9E81E321099D3700767DE3 /* ExtensionUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9E81E221099D3700767DE3 /* ExtensionUIViewController.swift */; };
 		73E193BA5ED8A5D1429A7027 /* Pods_MultiPeer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C94EC0DF1D4AF7E8409B99D /* Pods_MultiPeer.framework */; };
+		CF8AB935210BB10400631580 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8AB934210BB10400631580 /* CoreDataStack.swift */; };
+		CF8AB938210BBB2F00631580 /* ColoredItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8AB936210BBB2F00631580 /* ColoredItemCell.swift */; };
+		CF8AB939210BBB2F00631580 /* ColoredItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF8AB937210BBB2F00631580 /* ColoredItemCell.xib */; };
+		CF8AB93B210BBB4000631580 /* ExtensionColoredItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8AB93A210BBB4000631580 /* ExtensionColoredItem.swift */; };
+		CF8AB93E210BC9A400631580 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF8AB930210BAED500631580 /* DataModel.xcdatamodeld */; };
+		CF8AB940210C0D1B00631580 /* QuickVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8AB93F210C0D1B00631580 /* QuickVC.swift */; };
 		CF9EAF8C21095D360048598A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9EAF8B21095D360048598A /* AppDelegate.swift */; };
 		CF9EAF8E21095D360048598A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9EAF8D21095D360048598A /* ViewController.swift */; };
 		CF9EAF9121095D360048598A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF9EAF8F21095D360048598A /* Main.storyboard */; };
@@ -21,14 +23,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B9E81DA2109986800767DE3 /* SentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentCell.swift; sourceTree = "<group>"; };
-		1B9E81DB2109986800767DE3 /* SentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SentCell.xib; sourceTree = "<group>"; };
-		1B9E81DE2109988500767DE3 /* ReceivedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivedCell.swift; sourceTree = "<group>"; };
-		1B9E81DF2109988500767DE3 /* ReceivedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceivedCell.xib; sourceTree = "<group>"; };
 		1B9E81E221099D3700767DE3 /* ExtensionUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUIViewController.swift; sourceTree = "<group>"; };
 		469C5C4BD318E102DD1F82AB /* Pods-MultiPeer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiPeer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiPeer/Pods-MultiPeer.release.xcconfig"; sourceTree = "<group>"; };
 		48B399FD58BAFB34C693869E /* Pods-MultiPeer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiPeer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiPeer/Pods-MultiPeer.debug.xcconfig"; sourceTree = "<group>"; };
 		6C94EC0DF1D4AF7E8409B99D /* Pods_MultiPeer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiPeer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF8AB931210BAED500631580 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		CF8AB934210BB10400631580 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		CF8AB936210BBB2F00631580 /* ColoredItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredItemCell.swift; sourceTree = "<group>"; };
+		CF8AB937210BBB2F00631580 /* ColoredItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColoredItemCell.xib; sourceTree = "<group>"; };
+		CF8AB93A210BBB4000631580 /* ExtensionColoredItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionColoredItem.swift; sourceTree = "<group>"; };
+		CF8AB93F210C0D1B00631580 /* QuickVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickVC.swift; sourceTree = "<group>"; };
 		CF9EAF8821095D360048598A /* MultiPeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiPeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9EAF8B21095D360048598A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF9EAF8D21095D360048598A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +62,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CF8AB93C210BBC1300631580 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CF8AB934210BB10400631580 /* CoreDataStack.swift */,
+				CF8AB930210BAED500631580 /* DataModel.xcdatamodeld */,
+				CF8AB93A210BBB4000631580 /* ExtensionColoredItem.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		CF8AB93D210BBC2800631580 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				CF9EAF8D21095D360048598A /* ViewController.swift */,
+				CF8AB93F210C0D1B00631580 /* QuickVC.swift */,
+				CF8AB936210BBB2F00631580 /* ColoredItemCell.swift */,
+				CF8AB937210BBB2F00631580 /* ColoredItemCell.xib */,
+				1B9E81E221099D3700767DE3 /* ExtensionUIViewController.swift */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
 		CF9EAF7F21095D360048598A = {
 			isa = PBXGroup;
 			children = (
@@ -80,12 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				CF9EAF8B21095D360048598A /* AppDelegate.swift */,
-				CF9EAF8D21095D360048598A /* ViewController.swift */,
-				1B9E81DA2109986800767DE3 /* SentCell.swift */,
-				1B9E81DB2109986800767DE3 /* SentCell.xib */,
-				1B9E81DE2109988500767DE3 /* ReceivedCell.swift */,
-				1B9E81E221099D3700767DE3 /* ExtensionUIViewController.swift */,
-				1B9E81DF2109988500767DE3 /* ReceivedCell.xib */,
+				CF8AB93D210BBC2800631580 /* User Interface */,
+				CF8AB93C210BBC1300631580 /* CoreData */,
 				CF9EAF8F21095D360048598A /* Main.storyboard */,
 				CF9EAF9221095D370048598A /* Assets.xcassets */,
 				CF9EAF9421095D370048598A /* LaunchScreen.storyboard */,
@@ -163,11 +185,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B9E81E12109988500767DE3 /* ReceivedCell.xib in Resources */,
 				CF9EAF9621095D370048598A /* LaunchScreen.storyboard in Resources */,
 				CF9EAF9321095D370048598A /* Assets.xcassets in Resources */,
 				CF9EAF9121095D360048598A /* Main.storyboard in Resources */,
-				1B9E81DD2109986800767DE3 /* SentCell.xib in Resources */,
+				CF8AB939210BBB2F00631580 /* ColoredItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,11 +238,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8AB93B210BBB4000631580 /* ExtensionColoredItem.swift in Sources */,
+				CF8AB935210BB10400631580 /* CoreDataStack.swift in Sources */,
 				1B9E81E321099D3700767DE3 /* ExtensionUIViewController.swift in Sources */,
+				CF8AB93E210BC9A400631580 /* DataModel.xcdatamodeld in Sources */,
 				CF9EAF8E21095D360048598A /* ViewController.swift in Sources */,
 				CF9EAF8C21095D360048598A /* AppDelegate.swift in Sources */,
-				1B9E81DC2109986800767DE3 /* SentCell.swift in Sources */,
-				1B9E81E02109988500767DE3 /* ReceivedCell.swift in Sources */,
+				CF8AB940210C0D1B00631580 /* QuickVC.swift in Sources */,
+				CF8AB938210BBB2F00631580 /* ColoredItemCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,14 +391,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = REPPBAVR5L;
+				DEVELOPMENT_TEAM = TZ3XHXCR9A;
 				INFOPLIST_FILE = MultiPeer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = john.multipeer;
+				PRODUCT_BUNDLE_IDENTIFIER = me.maximaxof.multipeer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -387,14 +411,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = REPPBAVR5L;
+				DEVELOPMENT_TEAM = TZ3XHXCR9A;
 				INFOPLIST_FILE = MultiPeer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = john.multipeer;
+				PRODUCT_BUNDLE_IDENTIFIER = me.maximaxof.multipeer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -423,6 +447,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF8AB930210BAED500631580 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF8AB931210BAED500631580 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = CF8AB931210BAED500631580 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CF9EAF8021095D360048598A /* Project object */;
 }
