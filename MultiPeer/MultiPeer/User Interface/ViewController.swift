@@ -47,12 +47,18 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        CoreDataStack.addChangeListener(forListener: self) { (changes) in
+        let handler:(([String: [NSManagedObject]])->())? = { (changes) in
             print("ViewController is listening")
         }
+        
+        CoreDataStack.addChangeListener(forListener: self, handler: handler)
         try? self.fetchedResultsController.performFetch()
         tableView.dataSource = self
         tableView.register(UINib(nibName: "ColoredItemCell", bundle: nil), forCellReuseIdentifier: "ColoredItemCell")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        CoreDataStack.removeChangeListener(forListener: self)
     }
 }
 

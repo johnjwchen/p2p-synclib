@@ -75,17 +75,21 @@ class CoreDataStack {
     }
     
     private static func mainContextDidSave(withChanges changes: [String: [NSManagedObject]]=[:]) {
-        for (_, handler) in contextChangeListeners {
-            handler(changes)
+        for (listener, handler) in contextChangeListeners {
+            if let handler = handler {
+                handler(changes)
+            } else {
+                removeChangeListener(forListener: listener)
+            }
         }
     }
     
     
     // MARK: - Change Listeners
     
-    private static var contextChangeListeners:[NSObject: ([String: [NSManagedObject]])->()] = [:]
+    private static var contextChangeListeners:[NSObject: (([String: [NSManagedObject]])->())?] = [:]
     
-    static func addChangeListener(forListener listener: NSObject, handler: @escaping ([String: [NSManagedObject]])->()) {
+    static func addChangeListener(forListener listener: NSObject, handler: (([String: [NSManagedObject]])->())?) {
         contextChangeListeners[listener] = handler
     }
     static func removeChangeListener(forListener listener: NSObject) {
